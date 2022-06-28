@@ -1,0 +1,271 @@
+[API Trapper      (330c:30b8)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[API Trapper      (4320:40a8)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[API Trapper      (3aec:3c24)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[API Trapper      (4300:46bc)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[Network Analyzer (4300:19b4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4300:19b4)] Load Network Traffic Analyzers:
+[Network Analyzer (4300:19b4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (4300:19b4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (4300:19b4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (4300:19b4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (4300:19b4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (4300:19b4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (4300:19b4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4300: 74c)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 216.58.209.196:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 216.58.209.196:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 216.58.210.173:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (4300:3a1c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4300:3a1c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:4678)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 216.58.209.196:443   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (4300: 74c)] "GET /async/newtab_ogb?hl=ru&async=fixed:0"   
+[Network Analyzer (4300: 74c)]   (Sid:  1) Client -> Server @ : 371 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4300:4678)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4300:2220)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4300:41a8)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4300:41a8)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1142 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300:2220)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 388 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 256 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  1) Server -> Client : 735 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 216.58.209.195:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 216.58.209.195:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (4300:4364)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4300:4364)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (4300: 74c)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer (4300: 74c)]   (Sid:  5) Client -> Server @ : 298 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300:3c54)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300:3c54)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Web Request      (4300: 74c)] "GET /safebrowsing/csd/client_model_v5_ext_variation_0.pb"   
+[Network Analyzer (4300: 74c)]   (Sid:  6) Client -> Server @ : 302 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1329 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1329 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 512 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  5) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 512 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 1344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  6) Server -> Client : 316 bytes (SSL) (Service=HTTP)
+[API Trapper      (3018:1730)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[Network Analyzer (4300: 74c)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 216.58.210.131:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (4300:3568)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4300:3568)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (4210:4600)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[Network Analyzer (4300: 74c)]   (Sid:  3) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Web_tours [Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 127.0.0.1:8090   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 127.0.0.1:8090   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (4300: 74c)] "GET /WebTours/"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 567 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 126 bytes  (Service=HTTP)
+[Web Request      (4300: 74c)] "GET /WebTours/header.html"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 614 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 126 bytes  (Service=HTTP)
+[Web Request      (4300: 74c)] "GET /WebTours/welcome.pl?signOff=true"   
+[Network Analyzer (4300: 74c)]   (Sid:  9) Client -> Server @ : 576 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  9) Server -> Client : 386 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  9) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      (4300: 74c)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer (4300: 74c)]   (Sid:  9) Client -> Server @ : 680 bytes (Service=HTTP)
+[Web Request      (4300: 74c)] "GET /WebTours/home.html"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 725 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  9) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  9) Server -> Client : 2757 bytes  (Service=HTTP)
+[Web Request      (4300: 74c)] "GET /favicon.ico"   
+[Network Analyzer (4300: 74c)]   (Sid:  9) Client -> Server @ : 528 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  9) Server -> Client : 258 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  9) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent Web_tours [User action                 ] StartTransactionEvent Sign_up_now [Web Request      (4300: 74c)] "GET /WebTours/login.pl?username=&password=&getInfo=true"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 713 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 226 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 2424 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  7) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent Sign_up_now [API Trapper      (445c:4790)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[API Trapper      ( 8c0:4530)] Recording in 64-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\chrome\chrome.exe
+[User action                 ] StartTransactionEvent Customer_profile [Web Request      (4300: 74c)] "POST /WebTours/login.pl"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 981 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 226 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 2716 bytes  (Service=HTTP)
+[Web Request      (4300: 74c)] "POST /WebTours/login.pl"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 950 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 370 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 1074 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent Customer_profile [User action                 ] StartTransactionEvent continue [Web Request      (4300: 74c)] "GET /WebTours/welcome.pl?page=menus"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 816 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 540 bytes  (Service=HTTP)
+[Network Analyzer (4300:19b4)] Address lookup for DESKTOP-SRP29BA = 192.168.31.174
+[Network Analyzer (4300:19b4)] Request Connection: Remote Server @ 127.0.0.1:8090   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (4300: 74c)] "GET /WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 812 bytes (Service=HTTP)
+[Web Request      (4300: 74c)] "GET /WebTours/login.pl?intro=true"   
+[Network Analyzer (4300: 74c)]   (Sid: 10) Client -> Server @ : 807 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid: 10) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 1729 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid: 10) Server -> Client : 913 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent continue [User action                 ] StartTransactionEvent logout [Web Request      (4300: 74c)] "GET /WebTours/welcome.pl?signOff=1"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 831 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 386 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 630 bytes  (Service=HTTP)
+[Web Request      (4300: 74c)] "GET /WebTours/nav.pl?in=home"   
+[Network Analyzer (4300: 74c)]   (Sid:  8) Client -> Server @ : 677 bytes (Service=HTTP)
+[Web Request      (4300: 74c)] "GET /WebTours/home.html"   
+[Network Analyzer (4300: 74c)]   (Sid: 10) Client -> Server @ : 722 bytes (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid: 10) Server -> Client : 126 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 253 bytes  (Service=HTTP)
+[Network Analyzer (4300: 74c)]   (Sid:  8) Server -> Client : 2742 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent logout 

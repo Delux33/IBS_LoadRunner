@@ -1,0 +1,66 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=04_View_itinerarys.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+View_itineraries=View_itineraries.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+View_itineraries=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+View_itineraries=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+View_itineraries=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+View_itineraries=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="04_View_itineraries__*delimiter*__Web_tours__*delimiter*__Login__*delimiter*__Itineraries__*delimiter*__Logout"
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+04_View_itineraries=
+Web_tours=
+Login=
+Itineraries=
+Logout=

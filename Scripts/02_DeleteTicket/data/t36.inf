@@ -1,0 +1,11 @@
+[t36]
+FileName1=t36.html
+URL1=http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_32.xml
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t36_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

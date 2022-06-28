@@ -1,0 +1,13 @@
+GET /WebTours/nav.pl?page=menu&in=itinerary HTTP/1.1
+Host: 127.0.0.1:8090
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36
+Sec-Fetch-Mode: nested-navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Sec-Fetch-Site: same-origin
+Referer: http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1656256669&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&&address2&&username&jojo&hash&47&lastName&%0A&address1&&creditCard&&expDate&%0A
+

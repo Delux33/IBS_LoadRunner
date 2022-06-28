@@ -1,0 +1,11 @@
+[t66]
+FileName1=t66.html
+URL1=http://127.0.0.1:8090/WebTours/login.pl?intro=true
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_62.xml
+RequestHeaderFile=t66_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t66_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

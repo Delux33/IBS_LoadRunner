@@ -1,0 +1,20 @@
+[t6]
+FileName2=t6f0.html
+RawStepEndTime=1656445366737
+UseFrameIndex=1
+RequestBodyFile=t6_RequestBody.txt
+RawStepName=Itinerary Button
+ContentType=text/html
+URL1=http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary
+URL2=http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary
+URL3=http://127.0.0.1:8090/WebTours/itinerary.pl
+ResponseHeaderFile=t6_ResponseHeader.txt
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t6_RequestHeader.txt
+RawStepStartTime=1656445365204
+Total=3
+StepName=Url: Itinerary Button
+FrameIndex2=0.0
+FrameIndex3=0.1
+FileName1=t6.html
+FileName3=t6f1.html

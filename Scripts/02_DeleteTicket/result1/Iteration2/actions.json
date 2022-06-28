@@ -1,0 +1,99 @@
+[
+    {
+        "actionName": "Delete_ticket",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1656441837788
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: header.html",
+                "infFile": "t2.inf",
+                "time": 1656441837866
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t4.inf",
+                "time": 1656441838927
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t5.inf",
+                "time": 1656441840098
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t6.inf",
+                "time": 1656441841283
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t7.inf",
+                "time": 1656441842364
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: itinerary.pl_2",
+                "infFile": "t8.inf",
+                "time": 1656441843077
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: welcome.pl_2",
+                "infFile": "t9.inf",
+                "time": 1656441844153
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Web_tours",
+                "rawStartTime": 1656441836566,
+                "rawEndTime": 1656441838938,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06023979187011719
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1656441838954,
+                "rawEndTime": 1656441840110,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01925492286682129
+            },
+            {
+                "transactionName": "Itineraries",
+                "rawStartTime": 1656441840126,
+                "rawEndTime": 1656441842369,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04362368583679199
+            },
+            {
+                "transactionName": "CancelItinerary",
+                "rawStartTime": 1656441842385,
+                "rawEndTime": 1656441843090,
+                "thinkTime": 0.0,
+                "wastedTime": 0.016464948654174806
+            },
+            {
+                "transactionName": "Logout",
+                "rawStartTime": 1656441843107,
+                "rawEndTime": 1656441844161,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018032550811767579
+            },
+            {
+                "transactionName": "02_Delete_ticket",
+                "rawStartTime": 1656441836551,
+                "rawEndTime": 1656441844178,
+                "thinkTime": 0.0,
+                "wastedTime": 0.15761590003967286
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Дмитрий\Documents\VuGen\Scripts\01_FlightBooking
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\дмитрий\documents\vugen\scripts\01_flightbooking\\logfile.log
+c:\users\дмитрий\documents\vugen\scripts\01_flightbooking\\combined_FlightBooking.c
+c:\users\дмитрий\documents\vugen\scripts\01_flightbooking\\pre_cci.c

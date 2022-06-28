@@ -1,0 +1,8 @@
+[t7]
+FileName1=t7.html
+URL1=http://127.0.0.1:8090/WebTours/
+Total=2
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+FileName2=t7_client_model_v5_ext_variation_0.html
+URL2=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb

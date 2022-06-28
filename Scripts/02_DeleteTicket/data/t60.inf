@@ -1,0 +1,6 @@
+[t60]
+FileName1=t60_header.html
+URL1=http://127.0.0.1:8090/WebTours/header.html
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_56.xml

@@ -1,0 +1,67 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=FlightBooking.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+Flights_Booking=Flights_Booking.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Flights_Booking=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Flights_Booking=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Flights_Booking=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Flights_Booking=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="01_Flights_booking__*delimiter*__Web_tours__*delimiter*__Login__*delimiter*__Togo_info_about_flight__*delimiter*__Find_flight__*delimiter*__Payment_details"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+01_Flights_booking=
+Web_tours=
+Login=
+Togo_info_about_flight=
+Find_flight=
+Payment_details=

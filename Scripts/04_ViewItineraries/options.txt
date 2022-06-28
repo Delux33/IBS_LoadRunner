@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Дмитрий\Documents\VuGen\Scripts\04_ViewItineraries
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\дмитрий\documents\vugen\scripts\04_viewitineraries\\logfile.log
+c:\users\дмитрий\documents\vugen\scripts\04_viewitineraries\\combined_04_View_itinerarys.c
+c:\users\дмитрий\documents\vugen\scripts\04_viewitineraries\\pre_cci.c

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Дмитрий\Documents\VuGen\Scripts\03_RegistrationOfNewUsers
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\дмитрий\documents\vugen\scripts\03_registrationofnewusers\\logfile.log
+c:\users\дмитрий\documents\vugen\scripts\03_registrationofnewusers\\combined_03_RegistrationOfNewUsers.c
+c:\users\дмитрий\documents\vugen\scripts\03_registrationofnewusers\\pre_cci.c

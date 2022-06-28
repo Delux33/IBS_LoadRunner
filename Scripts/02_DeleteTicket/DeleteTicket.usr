@@ -1,0 +1,67 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=DeleteTicket.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+Delete_ticket=Delete_ticket.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Delete_ticket=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Delete_ticket=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Delete_ticket=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Delete_ticket=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="02_Delete_ticket__*delimiter*__Web_tours__*delimiter*__Login__*delimiter*__Itineraries__*delimiter*__CancelItinerary__*delimiter*__Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+02_Delete_ticket=
+Web_tours=
+Login=
+Itineraries=
+CancelItinerary=
+Logout=

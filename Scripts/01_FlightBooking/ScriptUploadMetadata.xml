@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>FlightBooking</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Flights_Booking.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="FlightBooking.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="FlightBooking.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_FlightBooking.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="148106386440.idx" Filter="1" />
+    <FileEntry Name="20480685440.idx" Filter="1" />
+    <FileEntry Name="2048068544_17g.111.idx" Filter="1" />
+    <FileEntry Name="2048068544_4yg.51.idx" Filter="1" />
+    <FileEntry Name="2048068544_9Ka.343.idx" Filter="1" />
+    <FileEntry Name="2048068544_h2P.873.idx" Filter="1" />
+    <FileEntry Name="2048068544_HQX.235.idx" Filter="1" />
+    <FileEntry Name="2048068544_LbI.635.idx" Filter="1" />
+    <FileEntry Name="2048068544_PxF.511.idx" Filter="1" />
+    <FileEntry Name="2048068544_usa.925.idx" Filter="1" />
+    <FileEntry Name="2048068544_wCO.707.idx" Filter="1" />
+    <FileEntry Name="2048068544_whK.401.idx" Filter="1" />
+    <FileEntry Name="237345123440.idx" Filter="1" />
+    <FileEntry Name="267340559440.idx" Filter="1" />
+    <FileEntry Name="26734055944_kPG.185.idx" Filter="1" />
+    <FileEntry Name="26734055944_ogl.977.idx" Filter="1" />
+    <FileEntry Name="53753284440.idx" Filter="1" />
+    <FileEntry Name="5375328444_4ru.186.idx" Filter="1" />
+    <FileEntry Name="5375328444_NZL.978.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="FlightBooking.c.pickle" Filter="1" />
+    <FileEntry Name="FlightBooking.ci" Filter="1" />
+    <FileEntry Name="FlightBooking.prm.bak" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam(1).dat" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="NewParam_1(1).dat" Filter="1" />
+    <FileEntry Name="NewParam_1(2).dat" Filter="1" />
+    <FileEntry Name="NewParam_1.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

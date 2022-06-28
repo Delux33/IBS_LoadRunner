@@ -1,0 +1,263 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 3,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "июн-26-2022",
+    "RecordingDuration": 20516,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1656239806,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 12601,
+    "TotalBytesSent": 10781,
+    "TotalRequests": 15,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "64.233.165.94",
+          "IncludeInScript": false,
+          "Name": "ssl.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 47,
+              "EventId": 965,
+              "HttpStatus": 200,
+              "Size": 77948,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 32,
+              "EventId": 960,
+              "HttpStatus": 200,
+              "Size": 77948,
+              "URL": "https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "127.0.0.1",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "127.0.0.1",
+          "IncludeInScript": true,
+          "Name": "127.0.0.1",
+          "Port": 8090,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 531,
+              "EventId": 1089,
+              "HttpStatus": 200,
+              "Size": 2748,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 93,
+              "EventId": 1087,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://127.0.0.1:8090/WebTours/home.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 672,
+              "EventId": 1084,
+              "HttpStatus": 200,
+              "Size": 630,
+              "URL": "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 547,
+              "EventId": 953,
+              "HttpStatus": 200,
+              "Size": 883,
+              "URL": "http://127.0.0.1:8090/WebTours/itinerary.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 531,
+              "EventId": 951,
+              "HttpStatus": 200,
+              "Size": 1476,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 688,
+              "EventId": 942,
+              "HttpStatus": 200,
+              "Size": 535,
+              "URL": "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 484,
+              "EventId": 933,
+              "HttpStatus": 200,
+              "Size": 912,
+              "URL": "http://127.0.0.1:8090/WebTours/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 453,
+              "EventId": 930,
+              "HttpStatus": 200,
+              "Size": 1476,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 453,
+              "EventId": 925,
+              "HttpStatus": 200,
+              "Size": 437,
+              "URL": "http://127.0.0.1:8090/WebTours/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 922,
+              "HttpStatus": 404,
+              "Size": 114,
+              "URL": "http://127.0.0.1:8090/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 688,
+              "EventId": 919,
+              "HttpStatus": 200,
+              "Size": 2760,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 917,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://127.0.0.1:8090/WebTours/home.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 531,
+              "EventId": 914,
+              "HttpStatus": 200,
+              "Size": 630,
+              "URL": "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 912,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://127.0.0.1:8090/WebTours/header.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 904,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://127.0.0.1:8090/WebTours/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

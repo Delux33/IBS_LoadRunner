@@ -1,0 +1,11 @@
+[t53]
+FileName1=t53.html
+URL1=http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary
+Total=1
+RequestHeaderFile=t53_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t53_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_49.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

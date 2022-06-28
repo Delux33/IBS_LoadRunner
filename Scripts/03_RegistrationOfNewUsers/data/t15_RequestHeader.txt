@@ -1,0 +1,14 @@
+GET /WebTours/welcome.pl?page=menus HTTP/1.1
+Host: 127.0.0.1:8090
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36
+Sec-Fetch-Mode: nested-navigate
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Sec-Fetch-Site: same-origin
+Referer: http://127.0.0.1:8090/WebTours/login.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1656429550&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Dmitrii&address2&dsfsdf&username&Dimae&hash&69&lastName&Tryanin&address1&Vaneeva&creditCard&&expDate&
+

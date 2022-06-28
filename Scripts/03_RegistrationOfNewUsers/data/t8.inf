@@ -1,0 +1,11 @@
+[t8]
+FileName1=t8_newtab_ogb.json
+URL1=https://www.google.com/async/newtab_ogb?hl=ru&async=fixed:0
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

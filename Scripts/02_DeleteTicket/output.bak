@@ -1,0 +1,2010 @@
+Virtual User Script started at: 28.06.2022 21:43:25
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (םמÿ 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Äלטענטי\Documents\VuGen\Scripts\02_DeleteTicket\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\Äלטענטי\Documents\VuGen\Scripts\02_DeleteTicket"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\Äלטענטי\Documents\VuGen\Scripts\02_DeleteTicket"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "c:\users\הלטענטי\documents\vugen\scripts\02_deleteticket"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2022-06-28 18:43:25  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2022-06-28 21:43:25  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\Äלטענטי\Documents\VuGen\Scripts\02_DeleteTicket\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Delete_ticket.
+Delete_ticket.c(5): Notify: Transaction "02_Delete_ticket" started.
+Delete_ticket.c(7): Notify: Transaction "Web_tours" started.
+Delete_ticket.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Delete_ticket.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(11): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(11): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(11): "Sec-Fetch-Mode: navigate" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Delete_ticket.c(11): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(14): web_add_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(14): An unrecognized header ("Sec-Fetch-Site") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(14): "Sec-Fetch-Site: none" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Delete_ticket.c(14): web_add_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(17): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(17): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(17): "Sec-Fetch-User: ?1" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Delete_ticket.c(17): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(20): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(20): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(20): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Delete_ticket.c(20): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(23): web_reg_find started  	[MsgId: MMSG-26355]
+Delete_ticket.c(23): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Delete_ticket.c(25): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(25): t=801ms: Connecting [0] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=814ms: Connected socket [0] from 127.0.0.1:9547 to 127.0.0.1:8090 in 13 ms  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=815ms: 402-byte request headers for "http://127.0.0.1:8090/WebTours/" (RelFrameId=1, Internal ID=1)
+Delete_ticket.c(25):     GET /WebTours/ HTTP/1.1\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=841ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/" (RelFrameId=1, Internal ID=1)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:25 GMT\r\n
+Delete_ticket.c(25):     Content-type: text/html\r\n
+Delete_ticket.c(25):     Content-length: 312\r\n
+Delete_ticket.c(25):     Last-modified: Tue, 28 Feb 2017 19:10:32 GMT\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=859ms: 312-byte response body for "http://127.0.0.1:8090/WebTours/" (RelFrameId=1, Internal ID=1)
+Delete_ticket.c(25):     <HTML>\n
+Delete_ticket.c(25):     <HEAD>\n
+Delete_ticket.c(25):     <title>Web Tours</title>\n
+Delete_ticket.c(25):     <frameset rows = "65,*" border=1 bordercolor=#F3E2E2>\n
+Delete_ticket.c(25):     <frame name="header" src=header.html scrolling=no noresize marginheight=2 marginwidth=2>\n
+Delete_ticket.c(25):     <frame name="body" src=welcome.pl?signOff=true scrolling=auto noresize marginheight=2 marg
+Delete_ticket.c(25):     inwidth=2>\n
+Delete_ticket.c(25):     </frameset>\n
+Delete_ticket.c(25):     </head>\n
+Delete_ticket.c(25):     </html>\n
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Delete_ticket.c(25): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Delete_ticket.c(25): t=870ms: Request done "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=877ms: Connecting [1] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=878ms: Connecting [2] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=879ms: Connected socket [1] from 127.0.0.1:9548 to 127.0.0.1:8090 in 2 ms  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=879ms: 455-byte request headers for "http://127.0.0.1:8090/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+Delete_ticket.c(25):     GET /WebTours/header.html HTTP/1.1\r\n
+Delete_ticket.c(25):     Referer: http://127.0.0.1:8090/WebTours/\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=882ms: Connected socket [2] from 127.0.0.1:9549 to 127.0.0.1:8090 in 4 ms  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=882ms: 467-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Delete_ticket.c(25):     GET /WebTours/welcome.pl?signOff=true HTTP/1.1\r\n
+Delete_ticket.c(25):     Referer: http://127.0.0.1:8090/WebTours/\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=890ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:25 GMT\r\n
+Delete_ticket.c(25):     Content-type: text/html\r\n
+Delete_ticket.c(25):     Content-length: 800\r\n
+Delete_ticket.c(25):     Last-modified: Tue, 28 Feb 2017 19:59:45 GMT\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=920ms: 800-byte response body for "http://127.0.0.1:8090/WebTours/header.html" (RelFrameId=1.1, Internal ID=2)
+Delete_ticket.c(25):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+Delete_ticket.c(25):     <HTML><HEAD></HEAD>\n
+Delete_ticket.c(25):     <BODY bgcolor=#730303 leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
+Delete_ticket.c(25):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+Delete_ticket.c(25):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+Delete_ticket.c(25):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
+Delete_ticket.c(25):     \t\t\t<tr>\n
+Delete_ticket.c(25):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/jmeter_logo.png" alt
+Delete_ticket.c(25):     ="" height="45" align="absmiddle" border="0"><a href="/WebTours"><img src="images/webtours
+Delete_ticket.c(25):     .png" alt="" height="45" width="130" align="absmiddle" border="0"></a><a href="welcome.pl?
+Delete_ticket.c(25):     page=menus" target="body"><img src="/WebTours/images/in_home.gif" alt="Home Button" border
+Delete_ticket.c(25):     ="0"></a></td>\n
+Delete_ticket.c(25):     \t\t\t\t<td></td>\n
+Delete_ticket.c(25):     \t\t\t</tr>\n
+Delete_ticket.c(25):     \t\t</table>\n
+Delete_ticket.c(25):     \t</BODY>\n
+Delete_ticket.c(25): Found resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+Delete_ticket.c(25): Found resource "http://127.0.0.1:8090/WebTours/images/webtours.png" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+Delete_ticket.c(25): Found resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+Delete_ticket.c(25): t=926ms: Request done "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=926ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=927ms: 477-byte request headers for "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (RelFrameId=, Internal ID=4)
+Delete_ticket.c(25):     GET /WebTours/images/jmeter_logo.png HTTP/1.1\r\n
+Delete_ticket.c(25):     Referer: http://127.0.0.1:8090/WebTours/header.html\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=930ms: Connecting [3] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=931ms: Connecting [4] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=931ms: Connected socket [3] from 127.0.0.1:9550 to 127.0.0.1:8090 in 1 ms  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=932ms: 474-byte request headers for "http://127.0.0.1:8090/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+Delete_ticket.c(25):     GET /WebTours/images/webtours.png HTTP/1.1\r\n
+Delete_ticket.c(25):     Referer: http://127.0.0.1:8090/WebTours/header.html\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=935ms: Connected socket [4] from 127.0.0.1:9551 to 127.0.0.1:8090 in 4 ms  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=935ms: 473-byte request headers for "http://127.0.0.1:8090/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=6)
+Delete_ticket.c(25):     GET /WebTours/images/in_home.gif HTTP/1.1\r\n
+Delete_ticket.c(25):     Referer: http://127.0.0.1:8090/WebTours/header.html\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=939ms: 165-byte response headers for "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (RelFrameId=, Internal ID=4)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:26 GMT\r\n
+Delete_ticket.c(25):     Content-type: image/png\r\n
+Delete_ticket.c(25):     Content-length: 2522\r\n
+Delete_ticket.c(25):     Last-modified: Tue, 28 Feb 2017 19:08:47 GMT\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=941ms: 2522-byte response body for "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (RelFrameId=, Internal ID=4)
+Delete_ticket.c(25): t=942ms: Request done "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=951ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:26 GMT\r\n
+Delete_ticket.c(25):     Content-type: image/png\r\n
+Delete_ticket.c(25):     Content-length: 818\r\n
+Delete_ticket.c(25):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=961ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=6)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:26 GMT\r\n
+Delete_ticket.c(25):     Content-type: image/gif\r\n
+Delete_ticket.c(25):     Content-length: 688\r\n
+Delete_ticket.c(25):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=964ms: 688-byte response body for "http://127.0.0.1:8090/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=6)
+Delete_ticket.c(25): t=965ms: Request done "http://127.0.0.1:8090/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=966ms: 818-byte response body for "http://127.0.0.1:8090/WebTours/images/webtours.png" (RelFrameId=, Internal ID=5)
+Delete_ticket.c(25): t=967ms: Request done "http://127.0.0.1:8090/WebTours/images/webtours.png"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=1373ms: 386-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:26 GMT\r\n
+Delete_ticket.c(25):     Cache-control: no-cache\r\n
+Delete_ticket.c(25):     Expires: 0\r\n
+Delete_ticket.c(25):     Content-length: 630\r\n
+Delete_ticket.c(25):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:26 GMT\r\n
+Delete_ticket.c(25):     Set-cookie: MTUserInfo=; path=/; expires=Mon, 27-Jun-2022 18:43:26 GMT\r\n
+Delete_ticket.c(25):     Set-cookie: MSO=SID&1656441806&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+Delete_ticket.c(25):     50; path=/\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=1376ms: 630-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=3)
+Delete_ticket.c(25):     <!-- \n
+Delete_ticket.c(25):      A Session ID has been created and loaded into a cookie called MSO.\n
+Delete_ticket.c(25):      Also, the server options have been loaded into the cookie called\n
+Delete_ticket.c(25):      MSO as well.  The server options can be set via the Admin page.\n
+Delete_ticket.c(25):      --->\n
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25):     <html>\n
+Delete_ticket.c(25):     <title>Web Tours</title>\n
+Delete_ticket.c(25):        <!-- Frame Set -->\n
+Delete_ticket.c(25):        <frameset cols="160,*" border=1 frameborder=1>\n
+Delete_ticket.c(25):           <!-- Navigation Frame -->\n
+Delete_ticket.c(25):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+Delete_ticket.c(25):                 noresize scrolling=auto>\n
+Delete_ticket.c(25):           <!-- Home Frame -->\n
+Delete_ticket.c(25):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+Delete_ticket.c(25):                 noresize scrolling=auto>\n
+Delete_ticket.c(25):        </frameset>\n
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25):     </body>\n
+Delete_ticket.c(25):     </html>
+Delete_ticket.c(25): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?in=home" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Delete_ticket.c(25): Detected non-resource "http://127.0.0.1:8090/WebTours/home.html" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Delete_ticket.c(25): t=1383ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=1395ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=1395ms: 571-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
+Delete_ticket.c(25):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+Delete_ticket.c(25):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     Cookie: MSO=SID&1656441806&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=1400ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=1400ms: 566-byte request headers for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=8)
+Delete_ticket.c(25):     GET /WebTours/home.html HTTP/1.1\r\n
+Delete_ticket.c(25):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     Cookie: MSO=SID&1656441806&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=1463ms: 165-byte response headers for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=8)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:26 GMT\r\n
+Delete_ticket.c(25):     Content-type: text/html\r\n
+Delete_ticket.c(25):     Content-length: 1322\r\n
+Delete_ticket.c(25):     Last-modified: Tue, 28 Feb 2017 19:12:27 GMT\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=1465ms: 1322-byte response body for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=8)
+Delete_ticket.c(25):     <HTML>\n
+Delete_ticket.c(25):     <HEAD>\n
+Delete_ticket.c(25):     \t<title>Web Tours</title>\n
+Delete_ticket.c(25):     </head>\n
+Delete_ticket.c(25):     <style>\n
+Delete_ticket.c(25):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(25):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Delete_ticket.c(25):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(25):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(25):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Delete_ticket.c(25):     N: none}\n
+Delete_ticket.c(25):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Delete_ticket.c(25):     CORATION: underline}\n
+Delete_ticket.c(25):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(25):     </style>\n
+Delete_ticket.c(25):     <body bgcolor=#e0e7f1>\n
+Delete_ticket.c(25):     <BR>\n
+Delete_ticket.c(25):     <BR>\n
+Delete_ticket.c(25):     <BR>\n
+Delete_ticket.c(25):     <br >\n
+Delete_ticket.c(25):     <table border=0>\n
+Delete_ticket.c(25):     <tr><td></td></tr>\n
+Delete_ticket.c(25):     <TR><TD></TD></TR>\n
+Delete_ticket.c(25):     <TR><TD>\n
+Delete_ticket.c(25):     <blockquote>\n
+Delete_ticket.c(25):     <H1><b>Web Tours</b></H1>\n
+Delete_ticket.c(25):     Welcome to the Web Tours site.\n
+Delete_ticket.c(25):     <br>\n
+Delete_ticket.c(25):     To make reservations,please enter your account information to the left.\n
+Delete_ticket.c(25):     <br>\n
+Delete_ticket.c(25):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+Delete_ticket.c(25):      ><B>sign up now</B></A> to get access to all our resources.\n
+Delete_ticket.c(25):     <br>\n
+Delete_ticket.c(25):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+Delete_ticket.c(25):     </A> link.\n
+Delete_ticket.c(25):     <br><br><br><br><br><br>\n
+Delete_ticket.c(25):     <br><small>\n
+Delete_ticket.c(25):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Delete_ticket.c(25):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+Delete_ticket.c(25):     </small>\n
+Delete_ticket.c(25):     </blockquote></TD>\n
+Delete_ticket.c(25):     <TD></TD></TR>\n
+Delete_ticket.c(25):     </table>\n
+Delete_ticket.c(25):     </body>\n
+Delete_ticket.c(25):     </html>\n
+Delete_ticket.c(25): t=1475ms: Request done "http://127.0.0.1:8090/WebTours/home.html"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=2077ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:27 GMT\r\n
+Delete_ticket.c(25):     Cache-control: no-cache\r\n
+Delete_ticket.c(25):     Expires: 0\r\n
+Delete_ticket.c(25):     Content-length: 2756\r\n
+Delete_ticket.c(25):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:26 GMT\r\n
+Delete_ticket.c(25):     Expires: Mon, 27 Jun 2022 18:43:26 GMT\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=2080ms: 2756-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
+Delete_ticket.c(25):     <!-- Comments option is ON \n
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25):     These are used to make the automated parsing difficult.\n
+Delete_ticket.c(25):     User must try and get the UserSession value.  There are several here, with similar boundar
+Delete_ticket.c(25):     ies.\n
+Delete_ticket.c(25):     But none are the right value.\n
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+Delete_ticket.c(25):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+Delete_ticket.c(25):     <style>\n
+Delete_ticket.c(25):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(25):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+Delete_ticket.c(25):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(25):     </style>\n
+Delete_ticket.c(25):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+Delete_ticket.c(25):     <form method=post action=login.pl target=body>\n
+Delete_ticket.c(25):     <input type=hidden name=userSession value=407134179.166140138zQAVitApifiDDDDDtVtVVpAtfVf>\n
+Delete_ticket.c(25):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+Delete_ticket.c(25):     <input type=hidden name=userSession value=1134179.166140138zQAVitApifiDDDDDtVtVVpAtfVf>\n
+Delete_ticket.c(25):     <table border=0>\n
+Delete_ticket.c(25):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+Delete_ticket.c(25):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+Delete_ticket.c(25):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+Delete_ticket.c(25):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+Delete_ticket.c(25):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+Delete_ticket.c(25):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+Delete_ticket.c(25):     mer_login.gif'>\n
+Delete_ticket.c(25):     </table></form>\n
+Delete_ticket.c(25):     </BODY></HTML>\n
+Delete_ticket.c(25):     -->\n
+Delete_ticket.c(25):     <!DOCTYPE html\n
+Delete_ticket.c(25):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(25):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(25):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(25):     <head>\n
+Delete_ticket.c(25):     <title>Web Tours Navigation Bar</title>\n
+Delete_ticket.c(25):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(25):     </head>\n
+Delete_ticket.c(25):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+Delete_ticket.c(25):     <style>\n
+Delete_ticket.c(25):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(25):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Delete_ticket.c(25):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(25):     small {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(25):     </style>\n
+Delete_ticket.c(25):     <form method=post action=login.pl target=body>\n
+Delete_ticket.c(25):     <input type=hidden name=userSession value=134179.166140138zQAVitApifiDDDDDtVtVVpAtfVf>\n
+Delete_ticket.c(25):     <table border=0><tr><td>&nbsp;</td>\n
+Delete_ticket.c(25):     <td>&nbsp;</td>\n
+Delete_ticket.c(25):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(25):     <td>&nbsp;</td></tr>\n
+Delete_ticket.c(25):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(25):     <td><small>&nbsp;Username</small></td></tr>\n
+Delete_ticket.c(25):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(25):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+Delete_ticket.c(25):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(25):     <td><small>&nbsp;Password</small></td>\n
+Delete_ticket.c(25):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(25):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+Delete_ticket.c(25):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(25):     <td>&nbsp;<tr><td>\n
+Delete_ticket.c(25):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(25):     <td><input type=image name=login value=Login alt=Login border=1 \n
+Delete_ticket.c(25):     src='/WebTours/images/mer_login.gif'>\n
+Delete_ticket.c(25):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(25):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+Delete_ticket.c(25):     </form>\n
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25):     </body>\n
+Delete_ticket.c(25):     </html>\n
+Delete_ticket.c(25): Found resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Delete_ticket.c(25): Found resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Delete_ticket.c(25): t=2092ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=2093ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=2093ms: 564-byte request headers for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=9)
+Delete_ticket.c(25):     GET /WebTours/images/fonJM.png HTTP/1.1\r\n
+Delete_ticket.c(25):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?in=home\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     Cookie: MSO=SID&1656441806&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=2096ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=2096ms: 568-byte request headers for "http://127.0.0.1:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=10)
+Delete_ticket.c(25):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
+Delete_ticket.c(25):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?in=home\r\n
+Delete_ticket.c(25):     Sec-Fetch-Mode: navigate\r\n
+Delete_ticket.c(25):     Sec-Fetch-Site: none\r\n
+Delete_ticket.c(25):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(25):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(25):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(25):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(25):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(25):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(25):     Accept: */*\r\n
+Delete_ticket.c(25):     Connection: Keep-Alive\r\n
+Delete_ticket.c(25):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(25):     Cookie: MSO=SID&1656441806&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Delete_ticket.c(25):     \n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=2103ms: 166-byte response headers for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=9)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:27 GMT\r\n
+Delete_ticket.c(25):     Content-type: image/png\r\n
+Delete_ticket.c(25):     Content-length: 29614\r\n
+Delete_ticket.c(25):     Last-modified: Tue, 28 Feb 2017 19:34:13 GMT\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=2112ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=10)
+Delete_ticket.c(25):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(25):     Server: Xitami\r\n
+Delete_ticket.c(25):     Date: Tue, 28 Jun 2022 18:43:27 GMT\r\n
+Delete_ticket.c(25):     Content-type: image/gif\r\n
+Delete_ticket.c(25):     Content-length: 679\r\n
+Delete_ticket.c(25):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(25):     \r\n
+Delete_ticket.c(25): t=2115ms: 679-byte response body for "http://127.0.0.1:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=10)
+Delete_ticket.c(25): t=2115ms: Request done "http://127.0.0.1:8090/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): t=2117ms: 12287-byte response body for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=9)
+Delete_ticket.c(25): t=2118ms: 12287-byte response body for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=9)
+Delete_ticket.c(25): t=2122ms: 5040-byte response body for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=9)
+Delete_ticket.c(25): t=2122ms: Request done "http://127.0.0.1:8090/WebTours/images/fonJM.png"  	[MsgId: MMSG-26000]
+Delete_ticket.c(25): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
+Delete_ticket.c(25): web_url("WebTours") was successful, 40141 body bytes, 1955 header bytes  	[MsgId: MMSG-26386]
+Delete_ticket.c(35): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(35): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(35): "Sec-Fetch-Mode: nested-navigate" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Delete_ticket.c(35): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(38): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(38): An unrecognized header ("Sec-Fetch-Site") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(38): "Sec-Fetch-Site: same-origin" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Delete_ticket.c(38): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(42): web_url("header.html") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(42): Retrieving data from cache for "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26558]
+Delete_ticket.c(42): t=2268ms: 800-byte response body retrieved from cache for "http://127.0.0.1:8090/WebTours/header.html" (RelFrameId=1, Internal ID=11)
+Delete_ticket.c(42):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+Delete_ticket.c(42):     <HTML><HEAD></HEAD>\n
+Delete_ticket.c(42):     <BODY bgcolor=#730303 leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
+Delete_ticket.c(42):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+Delete_ticket.c(42):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+Delete_ticket.c(42):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
+Delete_ticket.c(42):     \t\t\t<tr>\n
+Delete_ticket.c(42):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/jmeter_logo.png" alt
+Delete_ticket.c(42):     ="" height="45" align="absmiddle" border="0"><a href="/WebTours"><img src="images/webtours
+Delete_ticket.c(42):     .png" alt="" height="45" width="130" align="absmiddle" border="0"></a><a href="welcome.pl?
+Delete_ticket.c(42):     page=menus" target="body"><img src="/WebTours/images/in_home.gif" alt="Home Button" border
+Delete_ticket.c(42):     ="0"></a></td>\n
+Delete_ticket.c(42):     \t\t\t\t<td></td>\n
+Delete_ticket.c(42):     \t\t\t</tr>\n
+Delete_ticket.c(42):     \t\t</table>\n
+Delete_ticket.c(42):     \t</BODY>\n
+Delete_ticket.c(42): Resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(42): Resource "http://127.0.0.1:8090/WebTours/images/webtours.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(42): Resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(42): web_url("header.html") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Delete_ticket.c(52): web_remove_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(52): Previous automatically added web header for "Sec-Fetch-Mode" removed  	[MsgId: MMSG-26587]
+Delete_ticket.c(52): web_remove/revert_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(54): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(54): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Delete_ticket.c(54): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(56): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(56): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(56): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Delete_ticket.c(56): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(60): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Delete_ticket.c(60): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Delete_ticket.c(69): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(69): t=2361ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(69): t=2361ms: 518-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=12)
+Delete_ticket.c(69):     GET /WebTours/welcome.pl?signOff=true HTTP/1.1\r\n
+Delete_ticket.c(69):     Referer: http://127.0.0.1:8090/WebTours/\r\n
+Delete_ticket.c(69):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(69):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(69):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(69):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(69):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(69):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(69):     Accept: */*\r\n
+Delete_ticket.c(69):     Connection: Keep-Alive\r\n
+Delete_ticket.c(69):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(69):     Cookie: MSO=SID&1656441806&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Delete_ticket.c(69):     \n
+Delete_ticket.c(69):     \r\n
+Delete_ticket.c(69): t=2598ms: 386-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=12)
+Delete_ticket.c(69):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(69):     Server: Xitami\r\n
+Delete_ticket.c(69):     Date: Tue, 28 Jun 2022 18:43:27 GMT\r\n
+Delete_ticket.c(69):     Cache-control: no-cache\r\n
+Delete_ticket.c(69):     Expires: 0\r\n
+Delete_ticket.c(69):     Content-length: 630\r\n
+Delete_ticket.c(69):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(69):     Date: Tue, 28 Jun 2022 18:43:27 GMT\r\n
+Delete_ticket.c(69):     Set-cookie: MTUserInfo=; path=/; expires=Mon, 27-Jun-2022 18:43:27 GMT\r\n
+Delete_ticket.c(69):     Set-cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+Delete_ticket.c(69):     50; path=/\r\n
+Delete_ticket.c(69):     \r\n
+Delete_ticket.c(69): t=2603ms: 630-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=12)
+Delete_ticket.c(69):     <!-- \n
+Delete_ticket.c(69):      A Session ID has been created and loaded into a cookie called MSO.\n
+Delete_ticket.c(69):      Also, the server options have been loaded into the cookie called\n
+Delete_ticket.c(69):      MSO as well.  The server options can be set via the Admin page.\n
+Delete_ticket.c(69):      --->\n
+Delete_ticket.c(69):     \n
+Delete_ticket.c(69):     <html>\n
+Delete_ticket.c(69):     <title>Web Tours</title>\n
+Delete_ticket.c(69):        <!-- Frame Set -->\n
+Delete_ticket.c(69):        <frameset cols="160,*" border=1 frameborder=1>\n
+Delete_ticket.c(69):           <!-- Navigation Frame -->\n
+Delete_ticket.c(69):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+Delete_ticket.c(69):                 noresize scrolling=auto>\n
+Delete_ticket.c(69):           <!-- Home Frame -->\n
+Delete_ticket.c(69):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+Delete_ticket.c(69):                 noresize scrolling=auto>\n
+Delete_ticket.c(69):        </frameset>\n
+Delete_ticket.c(69):     \n
+Delete_ticket.c(69):     </body>\n
+Delete_ticket.c(69):     </html>
+Delete_ticket.c(69): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?in=home" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Delete_ticket.c(69): Detected non-resource "http://127.0.0.1:8090/WebTours/home.html" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Delete_ticket.c(69): Retrieving data from cache for "http://127.0.0.1:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
+Delete_ticket.c(69): t=2608ms: 1322-byte response body retrieved from cache for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=14)
+Delete_ticket.c(69):     <HTML>\n
+Delete_ticket.c(69):     <HEAD>\n
+Delete_ticket.c(69):     \t<title>Web Tours</title>\n
+Delete_ticket.c(69):     </head>\n
+Delete_ticket.c(69):     <style>\n
+Delete_ticket.c(69):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(69):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Delete_ticket.c(69):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(69):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(69):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Delete_ticket.c(69):     N: none}\n
+Delete_ticket.c(69):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Delete_ticket.c(69):     CORATION: underline}\n
+Delete_ticket.c(69):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(69):     </style>\n
+Delete_ticket.c(69):     <body bgcolor=#e0e7f1>\n
+Delete_ticket.c(69):     <BR>\n
+Delete_ticket.c(69):     <BR>\n
+Delete_ticket.c(69):     <BR>\n
+Delete_ticket.c(69):     <br >\n
+Delete_ticket.c(69):     <table border=0>\n
+Delete_ticket.c(69):     <tr><td></td></tr>\n
+Delete_ticket.c(69):     <TR><TD></TD></TR>\n
+Delete_ticket.c(69):     <TR><TD>\n
+Delete_ticket.c(69):     <blockquote>\n
+Delete_ticket.c(69):     <H1><b>Web Tours</b></H1>\n
+Delete_ticket.c(69):     Welcome to the Web Tours site.\n
+Delete_ticket.c(69):     <br>\n
+Delete_ticket.c(69):     To make reservations,please enter your account information to the left.\n
+Delete_ticket.c(69):     <br>\n
+Delete_ticket.c(69):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+Delete_ticket.c(69):      ><B>sign up now</B></A> to get access to all our resources.\n
+Delete_ticket.c(69):     <br>\n
+Delete_ticket.c(69):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+Delete_ticket.c(69):     </A> link.\n
+Delete_ticket.c(69):     <br><br><br><br><br><br>\n
+Delete_ticket.c(69):     <br><small>\n
+Delete_ticket.c(69):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Delete_ticket.c(69):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+Delete_ticket.c(69):     </small>\n
+Delete_ticket.c(69):     </blockquote></TD>\n
+Delete_ticket.c(69):     <TD></TD></TR>\n
+Delete_ticket.c(69):     </table>\n
+Delete_ticket.c(69):     </body>\n
+Delete_ticket.c(69):     </html>\n
+Delete_ticket.c(69): Search registration for "userSession" parameter is filtered by "Request URL"  	[MsgId: MMSG-26000]
+Delete_ticket.c(69): t=2616ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+Delete_ticket.c(69): Search registration for "userSession" parameter is filtered by "Request URL"  	[MsgId: MMSG-26000]
+Delete_ticket.c(69): t=2617ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(69): t=2617ms: 532-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=13)
+Delete_ticket.c(69):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+Delete_ticket.c(69):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true\r\n
+Delete_ticket.c(69):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(69):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(69):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(69):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(69):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(69):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(69):     Accept: */*\r\n
+Delete_ticket.c(69):     Connection: Keep-Alive\r\n
+Delete_ticket.c(69):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(69):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Delete_ticket.c(69):     \n
+Delete_ticket.c(69):     \r\n
+Delete_ticket.c(69): t=3072ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=13)
+Delete_ticket.c(69):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(69):     Server: Xitami\r\n
+Delete_ticket.c(69):     Date: Tue, 28 Jun 2022 18:43:28 GMT\r\n
+Delete_ticket.c(69):     Cache-control: no-cache\r\n
+Delete_ticket.c(69):     Expires: 0\r\n
+Delete_ticket.c(69):     Content-length: 2748\r\n
+Delete_ticket.c(69):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(69):     Date: Tue, 28 Jun 2022 18:43:27 GMT\r\n
+Delete_ticket.c(69):     Expires: Mon, 27 Jun 2022 18:43:27 GMT\r\n
+Delete_ticket.c(69):     \r\n
+Delete_ticket.c(69): t=3077ms: 2748-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=13)
+Delete_ticket.c(69):     <!-- Comments option is ON \n
+Delete_ticket.c(69):     \n
+Delete_ticket.c(69):     These are used to make the automated parsing difficult.\n
+Delete_ticket.c(69):     User must try and get the UserSession value.  There are several here, with similar boundar
+Delete_ticket.c(69):     ies.\n
+Delete_ticket.c(69):     But none are the right value.\n
+Delete_ticket.c(69):     \n
+Delete_ticket.c(69):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+Delete_ticket.c(69):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+Delete_ticket.c(69):     <style>\n
+Delete_ticket.c(69):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(69):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+Delete_ticket.c(69):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(69):     </style>\n
+Delete_ticket.c(69):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+Delete_ticket.c(69):     <form method=post action=login.pl target=body>\n
+Delete_ticket.c(69):     <input type=hidden name=userSession value=7690134179.166221142zQAVitApizcftVtVVpAtfVHf>\n
+Delete_ticket.c(69):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+Delete_ticket.c(69):     <input type=hidden name=userSession value=1134179.166221142zQAVitApizcftVtVVpAtfVHf>\n
+Delete_ticket.c(69):     <table border=0>\n
+Delete_ticket.c(69):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+Delete_ticket.c(69):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+Delete_ticket.c(69):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+Delete_ticket.c(69):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+Delete_ticket.c(69):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+Delete_ticket.c(69):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+Delete_ticket.c(69):     mer_login.gif'>\n
+Delete_ticket.c(69):     </table></form>\n
+Delete_ticket.c(69):     </BODY></HTML>\n
+Delete_ticket.c(69):     -->\n
+Delete_ticket.c(69):     <!DOCTYPE html\n
+Delete_ticket.c(69):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(69):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(69):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(69):     <head>\n
+Delete_ticket.c(69):     <title>Web Tours Navigation Bar</title>\n
+Delete_ticket.c(69):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(69):     </head>\n
+Delete_ticket.c(69):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+Delete_ticket.c(69):     <style>\n
+Delete_ticket.c(69):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(69):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Delete_ticket.c(69):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(69):     small {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(69):     </style>\n
+Delete_ticket.c(69):     <form method=post action=login.pl target=body>\n
+Delete_ticket.c(69):     <input type=hidden name=userSession value=134179.166221142zQAVitApizcftVtVVpAtfVHf>\n
+Delete_ticket.c(69):     <table border=0><tr><td>&nbsp;</td>\n
+Delete_ticket.c(69):     <td>&nbsp;</td>\n
+Delete_ticket.c(69):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(69):     <td>&nbsp;</td></tr>\n
+Delete_ticket.c(69):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(69):     <td><small>&nbsp;Username</small></td></tr>\n
+Delete_ticket.c(69):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(69):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+Delete_ticket.c(69):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(69):     <td><small>&nbsp;Password</small></td>\n
+Delete_ticket.c(69):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(69):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+Delete_ticket.c(69):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(69):     <td>&nbsp;<tr><td>\n
+Delete_ticket.c(69):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(69):     <td><input type=image name=login value=Login alt=Login border=1 \n
+Delete_ticket.c(69):     src='/WebTours/images/mer_login.gif'>\n
+Delete_ticket.c(69):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(69):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+Delete_ticket.c(69):     </form>\n
+Delete_ticket.c(69):     \n
+Delete_ticket.c(69):     </body>\n
+Delete_ticket.c(69):     </html>\n
+Delete_ticket.c(69): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(69): Resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(69): t=3090ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Delete_ticket.c(69): Notify: Saving Parameter "userSession = 134179.166221142zQAVitApizcftVtVVpAtfVHf".
+Delete_ticket.c(69): web_url("welcome.pl") was successful, 3378 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+Delete_ticket.c(79): Notify: Transaction "Web_tours" ended with a "Pass" status (Duration: 2,5042 Wasted Time: 0,2298).
+Delete_ticket.c(81): Notify: Transaction "Login" started.
+Delete_ticket.c(83): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(83): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(83): "Origin: http://127.0.0.1:8090" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Delete_ticket.c(83): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(86): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(86): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(86): "Sec-Fetch-Mode: nested-navigate" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Delete_ticket.c(86): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(89): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(89): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+Delete_ticket.c(89): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Delete_ticket.c(89): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Delete_ticket.c(92): web_reg_find started  	[MsgId: MMSG-26355]
+Delete_ticket.c(92): Notify: Parameter Substitution: parameter "username" =  "jo"
+Delete_ticket.c(92): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Delete_ticket.c(94): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(94): Notify: Parameter Substitution: parameter "userSession" =  "134179.166221142zQAVitApizcftVtVVpAtfVHf"
+Delete_ticket.c(94): Notify: Parameter Substitution: parameter "username" =  "jo"
+Delete_ticket.c(94): Notify: Next row for parameter password = 3 [table  = password].
+Delete_ticket.c(94): Notify: Parameter Substitution: parameter "password" =  "be"
+Delete_ticket.c(94): t=3231ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=3232ms: 672-byte request headers for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=15)
+Delete_ticket.c(94):     POST /WebTours/login.pl HTTP/1.1\r\n
+Delete_ticket.c(94):     Content-Type: application/x-www-form-urlencoded\r\n
+Delete_ticket.c(94):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?in=home\r\n
+Delete_ticket.c(94):     Origin: http://127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(94):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(94):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(94):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(94):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(94):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(94):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(94):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(94):     Accept: */*\r\n
+Delete_ticket.c(94):     Connection: Keep-Alive\r\n
+Delete_ticket.c(94):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Delete_ticket.c(94):     \n
+Delete_ticket.c(94):     Content-Length: 114\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=3235ms: 114-byte request body for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=15)
+Delete_ticket.c(94):     userSession=134179.166221142zQAVitApizcftVtVVpAtfVHf&username=jo&password=be&login.x=61&lo
+Delete_ticket.c(94):     gin.y=2&JSFormSubmit=off
+Delete_ticket.c(94): t=3692ms: 345-byte response headers for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=15)
+Delete_ticket.c(94):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(94):     Server: Xitami\r\n
+Delete_ticket.c(94):     Date: Tue, 28 Jun 2022 18:43:28 GMT\r\n
+Delete_ticket.c(94):     Cache-control: no-cache\r\n
+Delete_ticket.c(94):     Expires: 0\r\n
+Delete_ticket.c(94):     Content-length: 437\r\n
+Delete_ticket.c(94):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(94):     Date: Tue, 28 Jun 2022 18:43:28 GMT\r\n
+Delete_ticket.c(94):     Expires: 5s\r\n
+Delete_ticket.c(94):     Set-cookie: MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&cre
+Delete_ticket.c(94):     ditCard&&expDate&%0A; path=/\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=3700ms: 437-byte response body for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=15)
+Delete_ticket.c(94):     <!--\n
+Delete_ticket.c(94):     User password was correct - added a cookie with the user's default\n
+Delete_ticket.c(94):     information.  Set the user up to make reservations...\n
+Delete_ticket.c(94):     \n
+Delete_ticket.c(94):     --->\n
+Delete_ticket.c(94):     \n
+Delete_ticket.c(94):     <html>\n
+Delete_ticket.c(94):     <title>Web Tours</title>\n
+Delete_ticket.c(94):     <frameset cols="160,*" border=1 frameborder=1>\n
+Delete_ticket.c(94):     <frame src=nav.pl?page=menu&in=home name=navbar marginheight=2 marginwidth=2 noresize scro
+Delete_ticket.c(94):     lling=auto>\n
+Delete_ticket.c(94):     <frame src=login.pl?intro=true name=info marginheight=2 marginwidth=2 noresize scrolling=a
+Delete_ticket.c(94):     uto>\n
+Delete_ticket.c(94):     </frameset>\n
+Delete_ticket.c(94):     \n
+Delete_ticket.c(94):     </body>\n
+Delete_ticket.c(94):     </html>
+Delete_ticket.c(94): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" in "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+Delete_ticket.c(94): Detected non-resource "http://127.0.0.1:8090/WebTours/login.pl?intro=true" in "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+Delete_ticket.c(94): t=3704ms: Request done "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=3705ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=3705ms: 711-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=16)
+Delete_ticket.c(94):     GET /WebTours/nav.pl?page=menu&in=home HTTP/1.1\r\n
+Delete_ticket.c(94):     Referer: http://127.0.0.1:8090/WebTours/login.pl\r\n
+Delete_ticket.c(94):     Origin: http://127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(94):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(94):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(94):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(94):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(94):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(94):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(94):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(94):     Accept: */*\r\n
+Delete_ticket.c(94):     Connection: Keep-Alive\r\n
+Delete_ticket.c(94):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(94):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(94):     Date&%0A\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=3709ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=3709ms: 706-byte request headers for "http://127.0.0.1:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=17)
+Delete_ticket.c(94):     GET /WebTours/login.pl?intro=true HTTP/1.1\r\n
+Delete_ticket.c(94):     Referer: http://127.0.0.1:8090/WebTours/login.pl\r\n
+Delete_ticket.c(94):     Origin: http://127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(94):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(94):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(94):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(94):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(94):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(94):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(94):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(94):     Accept: */*\r\n
+Delete_ticket.c(94):     Connection: Keep-Alive\r\n
+Delete_ticket.c(94):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(94):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(94):     Date&%0A\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=4201ms: 225-byte response headers for "http://127.0.0.1:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=17)
+Delete_ticket.c(94):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(94):     Server: Xitami\r\n
+Delete_ticket.c(94):     Date: Tue, 28 Jun 2022 18:43:29 GMT\r\n
+Delete_ticket.c(94):     Cache-control: no-cache\r\n
+Delete_ticket.c(94):     Expires: 0\r\n
+Delete_ticket.c(94):     Content-length: 910\r\n
+Delete_ticket.c(94):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(94):     Date: Tue, 28 Jun 2022 18:43:29 GMT\r\n
+Delete_ticket.c(94):     Expires: 5s\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=4207ms: 910-byte response body for "http://127.0.0.1:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=17)
+Delete_ticket.c(94):     <!DOCTYPE html\n
+Delete_ticket.c(94):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(94):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(94):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(94):     <head>\n
+Delete_ticket.c(94):     <title>Welcome to Web Tours</title>\n
+Delete_ticket.c(94):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(94):     </head>\n
+Delete_ticket.c(94):     <body bgcolor="#E0E7F1">\n
+Delete_ticket.c(94):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+Delete_ticket.c(94):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+Delete_ticket.c(94):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+Delete_ticket.c(94):     black}</style><BR><BR><BR><BR><BR><blockquote>Welcome, <b>jo</b>, to the Web Tours reserva
+Delete_ticket.c(94):     tion pages.<BR>Using the menu to the left, you can search for new flights to book, \n
+Delete_ticket.c(94):     or review/edit the flights already booked.  Don't forget to sign off when\n
+Delete_ticket.c(94):     you're done!\n
+Delete_ticket.c(94):     </blockquote>\n
+Delete_ticket.c(94):     </body>\n
+Delete_ticket.c(94):     </html>
+Delete_ticket.c(94): t=4212ms: Request done "http://127.0.0.1:8090/WebTours/login.pl?intro=true"  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=4212ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=16)
+Delete_ticket.c(94):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(94):     Server: Xitami\r\n
+Delete_ticket.c(94):     Date: Tue, 28 Jun 2022 18:43:29 GMT\r\n
+Delete_ticket.c(94):     Cache-control: no-cache\r\n
+Delete_ticket.c(94):     Expires: 0\r\n
+Delete_ticket.c(94):     Content-length: 1476\r\n
+Delete_ticket.c(94):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(94):     Date: Tue, 28 Jun 2022 18:43:29 GMT\r\n
+Delete_ticket.c(94):     Expires: Mon, 27 Jun 2022 18:43:29 GMT\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=4217ms: 1476-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=16)
+Delete_ticket.c(94):     <!DOCTYPE html\n
+Delete_ticket.c(94):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(94):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(94):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(94):     <head>\n
+Delete_ticket.c(94):     <title>Web Tours Navigation Bar</title>\n
+Delete_ticket.c(94):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(94):     </head>\n
+Delete_ticket.c(94):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+Delete_ticket.c(94):     \n
+Delete_ticket.c(94):     <style>\n
+Delete_ticket.c(94):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(94):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Delete_ticket.c(94):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(94):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(94):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Delete_ticket.c(94):     N: none}\n
+Delete_ticket.c(94):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Delete_ticket.c(94):     CORATION: underline}\n
+Delete_ticket.c(94):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(94):     </style>\n
+Delete_ticket.c(94):     \n
+Delete_ticket.c(94):     <BR><BR><center>\n
+Delete_ticket.c(94):     \n
+Delete_ticket.c(94):     <br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebT
+Delete_ticket.c(94):     ours/images/flights.gif \n
+Delete_ticket.c(94):     ALT="Search Flights Button"></A>\n
+Delete_ticket.c(94):     <br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/
+Delete_ticket.c(94):     images/itinerary.gif \n
+Delete_ticket.c(94):     ALT="Itinerary Button"></A>\n
+Delete_ticket.c(94):     <br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/imag
+Delete_ticket.c(94):     es/in_home.gif \n
+Delete_ticket.c(94):     ALT="Home Button"></A>\n
+Delete_ticket.c(94):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/image
+Delete_ticket.c(94):     s/signoff.gif \n
+Delete_ticket.c(94):     ALT="SignOff Button"></A></center>\n
+Delete_ticket.c(94):     \n
+Delete_ticket.c(94):     </body>\n
+Delete_ticket.c(94):     </html>\n
+Delete_ticket.c(94): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(94): Found resource "http://127.0.0.1:8090/WebTours/images/flights.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Delete_ticket.c(94): Found resource "http://127.0.0.1:8090/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Delete_ticket.c(94): Resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(94): Found resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Delete_ticket.c(94): t=4226ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=4227ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=4227ms: 721-byte request headers for "http://127.0.0.1:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=18)
+Delete_ticket.c(94):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+Delete_ticket.c(94):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Delete_ticket.c(94):     Origin: http://127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(94):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(94):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(94):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(94):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(94):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(94):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(94):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(94):     Accept: */*\r\n
+Delete_ticket.c(94):     Connection: Keep-Alive\r\n
+Delete_ticket.c(94):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(94):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(94):     Date&%0A\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=4230ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=4231ms: 723-byte request headers for "http://127.0.0.1:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=19)
+Delete_ticket.c(94):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+Delete_ticket.c(94):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Delete_ticket.c(94):     Origin: http://127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(94):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(94):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(94):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(94):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(94):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(94):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(94):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(94):     Accept: */*\r\n
+Delete_ticket.c(94):     Connection: Keep-Alive\r\n
+Delete_ticket.c(94):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(94):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(94):     Date&%0A\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=4235ms: Already connected [3] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=4236ms: 721-byte request headers for "http://127.0.0.1:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=20)
+Delete_ticket.c(94):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+Delete_ticket.c(94):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Delete_ticket.c(94):     Origin: http://127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(94):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(94):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(94):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(94):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(94):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(94):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(94):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(94):     Accept: */*\r\n
+Delete_ticket.c(94):     Connection: Keep-Alive\r\n
+Delete_ticket.c(94):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(94):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(94):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(94):     Date&%0A\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=4240ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=18)
+Delete_ticket.c(94):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(94):     Server: Xitami\r\n
+Delete_ticket.c(94):     Date: Tue, 28 Jun 2022 18:43:29 GMT\r\n
+Delete_ticket.c(94):     Content-type: image/gif\r\n
+Delete_ticket.c(94):     Content-length: 726\r\n
+Delete_ticket.c(94):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=4256ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=20)
+Delete_ticket.c(94):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(94):     Server: Xitami\r\n
+Delete_ticket.c(94):     Date: Tue, 28 Jun 2022 18:43:29 GMT\r\n
+Delete_ticket.c(94):     Content-type: image/gif\r\n
+Delete_ticket.c(94):     Content-length: 751\r\n
+Delete_ticket.c(94):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=4258ms: 751-byte response body for "http://127.0.0.1:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=20)
+Delete_ticket.c(94): t=4259ms: Request done "http://127.0.0.1:8090/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=4263ms: 726-byte response body for "http://127.0.0.1:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=18)
+Delete_ticket.c(94): t=4264ms: Request done "http://127.0.0.1:8090/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): t=4265ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=19)
+Delete_ticket.c(94):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(94):     Server: Xitami\r\n
+Delete_ticket.c(94):     Date: Tue, 28 Jun 2022 18:43:29 GMT\r\n
+Delete_ticket.c(94):     Content-type: image/gif\r\n
+Delete_ticket.c(94):     Content-length: 733\r\n
+Delete_ticket.c(94):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(94):     \r\n
+Delete_ticket.c(94): t=4267ms: 733-byte response body for "http://127.0.0.1:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=19)
+Delete_ticket.c(94): t=4268ms: Request done "http://127.0.0.1:8090/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+Delete_ticket.c(94): Registered web_reg_find successful for "Text=Welcome, <b>jo</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+Delete_ticket.c(94): web_submit_data("login.pl") was successful, 5033 body bytes, 1315 header bytes  	[MsgId: MMSG-26386]
+Delete_ticket.c(112): Notify: Transaction "Login" ended with a "Pass" status (Duration: 1,1583 Wasted Time: 0,0152).
+Delete_ticket.c(114): Notify: Transaction "Itineraries" started.
+Delete_ticket.c(116): web_reg_find started  	[MsgId: MMSG-26355]
+Delete_ticket.c(116): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Delete_ticket.c(120): Warning: The string 'not_flights' with parameter delimiters is not a parameter.
+Delete_ticket.c(123): web_reg_find started  	[MsgId: MMSG-26355]
+Delete_ticket.c(123): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Delete_ticket.c(126): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(126): t=4388ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=4388ms: 697-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=21)
+Delete_ticket.c(126):     GET /WebTours/welcome.pl?page=itinerary HTTP/1.1\r\n
+Delete_ticket.c(126):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Delete_ticket.c(126):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(126):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(126):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(126):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(126):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(126):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(126):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(126):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(126):     Accept: */*\r\n
+Delete_ticket.c(126):     Connection: Keep-Alive\r\n
+Delete_ticket.c(126):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(126):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(126):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(126):     Date&%0A\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=4850ms: 175-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=21)
+Delete_ticket.c(126):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(126):     Server: Xitami\r\n
+Delete_ticket.c(126):     Date: Tue, 28 Jun 2022 18:43:29 GMT\r\n
+Delete_ticket.c(126):     Cache-control: no-cache\r\n
+Delete_ticket.c(126):     Expires: 0\r\n
+Delete_ticket.c(126):     Content-length: 535\r\n
+Delete_ticket.c(126):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=4857ms: 535-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=21)
+Delete_ticket.c(126):     <!-- \n
+Delete_ticket.c(126):      User wants the intineraries.  Since user has already logged on,\n
+Delete_ticket.c(126):      we can give them the menu in the navbar.\n
+Delete_ticket.c(126):      --->\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     <html>\n
+Delete_ticket.c(126):     <title>Web Tours</title>\n
+Delete_ticket.c(126):        <!-- Frame Set -->\n
+Delete_ticket.c(126):        <frameset cols="160,*" border=1 frameborder=1>\n
+Delete_ticket.c(126):           <!-- Navigation Frame -->\n
+Delete_ticket.c(126):           <frame src=nav.pl?page=menu&in=itinerary name=navbar \n
+Delete_ticket.c(126):                 marginheight=2 marginwidth=2 noresize scrolling=auto>\n
+Delete_ticket.c(126):           <!-- Itinerary Frame -->\n
+Delete_ticket.c(126):           <frame src=itinerary.pl name=info \n
+Delete_ticket.c(126):                 marginheight=2 marginwidth=2 noresize scrolling=auto>\n
+Delete_ticket.c(126):        </frameset>\n
+Delete_ticket.c(126): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Delete_ticket.c(126): Detected non-resource "http://127.0.0.1:8090/WebTours/itinerary.pl" in "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Delete_ticket.c(126): t=4861ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=4862ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=4862ms: 702-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=22)
+Delete_ticket.c(126):     GET /WebTours/nav.pl?page=menu&in=itinerary HTTP/1.1\r\n
+Delete_ticket.c(126):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary\r\n
+Delete_ticket.c(126):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(126):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(126):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(126):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(126):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(126):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(126):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(126):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(126):     Accept: */*\r\n
+Delete_ticket.c(126):     Connection: Keep-Alive\r\n
+Delete_ticket.c(126):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(126):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(126):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(126):     Date&%0A\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=4866ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=4867ms: 685-byte request headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=23)
+Delete_ticket.c(126):     GET /WebTours/itinerary.pl HTTP/1.1\r\n
+Delete_ticket.c(126):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary\r\n
+Delete_ticket.c(126):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(126):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(126):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(126):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(126):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(126):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(126):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(126):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(126):     Accept: */*\r\n
+Delete_ticket.c(126):     Connection: Keep-Alive\r\n
+Delete_ticket.c(126):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(126):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(126):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(126):     Date&%0A\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5356ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=23)
+Delete_ticket.c(126):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(126):     Server: Xitami\r\n
+Delete_ticket.c(126):     Date: Tue, 28 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     Cache-control: no-cache\r\n
+Delete_ticket.c(126):     Expires: 0\r\n
+Delete_ticket.c(126):     Content-length: 2614\r\n
+Delete_ticket.c(126):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(126):     Date: Tue, 28 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     Expires: Mon, 27 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5361ms: 2614-byte response body for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=23)
+Delete_ticket.c(126):     <!DOCTYPE html\n
+Delete_ticket.c(126):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(126):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(126):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(126):     <head>\n
+Delete_ticket.c(126):     <title>Flights List</title>\n
+Delete_ticket.c(126):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(126):     </head>\n
+Delete_ticket.c(126):     <body bgcolor="#E0E7F1">\n
+Delete_ticket.c(126):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Delete_ticket.c(126):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Delete_ticket.c(126):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Delete_ticket.c(126):     </style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquot
+Delete_ticket.c(126):     e><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">\n
+Delete_ticket.c(126):     <center>\n
+Delete_ticket.c(126):     <TABLE BORDER=0 WIDTH=85% CELLSPACING=0>\n
+Delete_ticket.c(126):     <TR bgcolor=#5E7884>\n
+Delete_ticket.c(126):       <TD colspan=4 align=center><font color=white><B>Dmitr Tryan\n
+Delete_ticket.c(126):      's Flight Transaction Summary</B></color></TD></TR>\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     <!-- Flight #1 -->\n
+Delete_ticket.c(126):     <TR bgcolor=#EFF2F7>\n
+Delete_ticket.c(126):       <TD width=5% rowspan=2 align=left valign=top>\n
+Delete_ticket.c(126):     <b>\n
+Delete_ticket.c(126):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
+Delete_ticket.c(126):     <input type="hidden" name="flightID" value="289223423-100070-DT"  />\n
+Delete_ticket.c(126):       </TD>\n
+Delete_ticket.c(126):       <TD width=45% valign=top>\n
+Delete_ticket.c(126):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Delete_ticket.c(126):           <center><table border=0 width=85%><tr><td>\n
+Delete_ticket.c(126):           <li><i>Dmitr\n
+Delete_ticket.c(126):           <li><i></i>\n
+Delete_ticket.c(126):           </td></tr></table></center>\n
+Delete_ticket.c(126):       </TD>\n
+Delete_ticket.c(126):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Delete_ticket.c(126):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Delete_ticket.c(126):           <center>\n
+Delete_ticket.c(126):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Delete_ticket.c(126):               Dmitr Tryan\n
+Delete_ticket.c(126):     <br>\n
+Delete_ticket.c(126):               Vaneev<br>\n
+Delete_ticket.c(126):               Sarans<br>\n
+Delete_ticket.c(126):               <br>\n
+Delete_ticket.c(126):               Total Charge: $ 918 <BR> (CC: x-7809)\n
+Delete_ticket.c(126):           </td> </tr> </table>\n
+Delete_ticket.c(126):           </center>\n
+Delete_ticket.c(126):       </TD>\n
+Delete_ticket.c(126):     </TR>\n
+Delete_ticket.c(126):     <TR bgcolor=#EFF2F7>\n
+Delete_ticket.c(126):       <TD COLSPAN=3>\n
+Delete_ticket.c(126):       <b>Flight Details:</b><BR>  <center>\n
+Delete_ticket.c(126):       09/22/2022\n
+Delete_ticket.c(126):      :  5pm : Flight 032 leaves Denver  for Los Angeles.<br>  09/23/2022\n
+Delete_ticket.c(126):      :  8am : Flight 300 leaves Los Angeles  for Denver.<br>  </center>\n
+Delete_ticket.c(126):       </TD>\n
+Delete_ticket.c(126):     </TR>\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     <TR bgcolor=#EFF2F7>\n
+Delete_ticket.c(126):       <TD COLSPAN=4>\n
+Delete_ticket.c(126):       <hr>\n
+Delete_ticket.c(126):       </TD>\n
+Delete_ticket.c(126):     </TR>\n
+Delete_ticket.c(126):     <TR>\n
+Delete_ticket.c(126):        <TD align=center COLSPAN=4>\n
+Delete_ticket.c(126):        <b>A total of 1 scheduled flights.</font></b>\n
+Delete_ticket.c(126):        </TD>\n
+Delete_ticket.c(126):     </TR>\n
+Delete_ticket.c(126):     </TABLE>\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     <TABLE WIDTH=87% BORDER=0 CELLSPACING=0>\n
+Delete_ticket.c(126):     <TR>\n
+Delete_ticket.c(126):     <TD align=left width=50% >\n
+Delete_ticket.c(126):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+Delete_ticket.c(126):     er="0" /></TD>\n
+Delete_ticket.c(126):     <TD align=right width=50% >\n
+Delete_ticket.c(126):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+Delete_ticket.c(126):     f" border="0" /></TD>\n
+Delete_ticket.c(126):     </TABLE>\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     <div><input type="hidden" name=".cgifields" value="1"  /></div></form>\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     </center>\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     </body>\n
+Delete_ticket.c(126):     </html>
+Delete_ticket.c(126): Found resource "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26659]
+Delete_ticket.c(126): Found resource "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26659]
+Delete_ticket.c(126): t=5378ms: Request done "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=5379ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=5379ms: 688-byte request headers for "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=24)
+Delete_ticket.c(126):     GET /WebTours/images/cancelreservation.gif HTTP/1.1\r\n
+Delete_ticket.c(126):     Referer: http://127.0.0.1:8090/WebTours/itinerary.pl\r\n
+Delete_ticket.c(126):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(126):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(126):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(126):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(126):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(126):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(126):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(126):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(126):     Accept: */*\r\n
+Delete_ticket.c(126):     Connection: Keep-Alive\r\n
+Delete_ticket.c(126):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(126):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(126):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(126):     Date&%0A\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5383ms: Already connected [3] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=5383ms: 692-byte request headers for "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=25)
+Delete_ticket.c(126):     GET /WebTours/images/cancelallreservations.gif HTTP/1.1\r\n
+Delete_ticket.c(126):     Referer: http://127.0.0.1:8090/WebTours/itinerary.pl\r\n
+Delete_ticket.c(126):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(126):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(126):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(126):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(126):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(126):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(126):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(126):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(126):     Accept: */*\r\n
+Delete_ticket.c(126):     Connection: Keep-Alive\r\n
+Delete_ticket.c(126):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(126):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(126):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(126):     Date&%0A\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5388ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=22)
+Delete_ticket.c(126):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(126):     Server: Xitami\r\n
+Delete_ticket.c(126):     Date: Tue, 28 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     Cache-control: no-cache\r\n
+Delete_ticket.c(126):     Expires: 0\r\n
+Delete_ticket.c(126):     Content-length: 1476\r\n
+Delete_ticket.c(126):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(126):     Date: Tue, 28 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     Expires: Mon, 27 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5392ms: 1476-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=22)
+Delete_ticket.c(126):     <!DOCTYPE html\n
+Delete_ticket.c(126):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(126):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(126):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(126):     <head>\n
+Delete_ticket.c(126):     <title>Web Tours Navigation Bar</title>\n
+Delete_ticket.c(126):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(126):     </head>\n
+Delete_ticket.c(126):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     <style>\n
+Delete_ticket.c(126):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(126):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Delete_ticket.c(126):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(126):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(126):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Delete_ticket.c(126):     N: none}\n
+Delete_ticket.c(126):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Delete_ticket.c(126):     CORATION: underline}\n
+Delete_ticket.c(126):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(126):     </style>\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     <BR><BR><center>\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     <br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebT
+Delete_ticket.c(126):     ours/images/flights.gif \n
+Delete_ticket.c(126):     ALT="Search Flights Button"></A>\n
+Delete_ticket.c(126):     <br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/
+Delete_ticket.c(126):     images/in_itinerary.gif \n
+Delete_ticket.c(126):     ALT="Itinerary Button"></A>\n
+Delete_ticket.c(126):     <br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/imag
+Delete_ticket.c(126):     es/home.gif \n
+Delete_ticket.c(126):     ALT="Home Button"></A>\n
+Delete_ticket.c(126):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/image
+Delete_ticket.c(126):     s/signoff.gif \n
+Delete_ticket.c(126):     ALT="SignOff Button"></A></center>\n
+Delete_ticket.c(126):     \n
+Delete_ticket.c(126):     </body>\n
+Delete_ticket.c(126):     </html>\n
+Delete_ticket.c(126): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(126): Resource "http://127.0.0.1:8090/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(126): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Delete_ticket.c(126): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Delete_ticket.c(126): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(126): t=5404ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=5405ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=5405ms: 700-byte request headers for "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=26)
+Delete_ticket.c(126):     GET /WebTours/images/in_itinerary.gif HTTP/1.1\r\n
+Delete_ticket.c(126):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary\r\n
+Delete_ticket.c(126):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(126):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(126):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(126):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(126):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(126):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(126):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(126):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(126):     Accept: */*\r\n
+Delete_ticket.c(126):     Connection: Keep-Alive\r\n
+Delete_ticket.c(126):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(126):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(126):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(126):     Date&%0A\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5408ms: Already connected [4] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=5409ms: 692-byte request headers for "http://127.0.0.1:8090/WebTours/images/home.gif" (RelFrameId=, Internal ID=27)
+Delete_ticket.c(126):     GET /WebTours/images/home.gif HTTP/1.1\r\n
+Delete_ticket.c(126):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary\r\n
+Delete_ticket.c(126):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(126):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(126):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(126):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(126):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(126):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(126):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(126):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(126):     Accept: */*\r\n
+Delete_ticket.c(126):     Connection: Keep-Alive\r\n
+Delete_ticket.c(126):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(126):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(126):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(126):     Date&%0A\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5415ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=24)
+Delete_ticket.c(126):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(126):     Server: Xitami\r\n
+Delete_ticket.c(126):     Date: Tue, 28 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     Content-type: image/gif\r\n
+Delete_ticket.c(126):     Content-length: 831\r\n
+Delete_ticket.c(126):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5417ms: 831-byte response body for "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=24)
+Delete_ticket.c(126): t=5418ms: Request done "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif"  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=5420ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=26)
+Delete_ticket.c(126):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(126):     Server: Xitami\r\n
+Delete_ticket.c(126):     Date: Tue, 28 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     Content-type: image/gif\r\n
+Delete_ticket.c(126):     Content-length: 733\r\n
+Delete_ticket.c(126):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5426ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=25)
+Delete_ticket.c(126):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(126):     Server: Xitami\r\n
+Delete_ticket.c(126):     Date: Tue, 28 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     Content-type: image/gif\r\n
+Delete_ticket.c(126):     Content-length: 742\r\n
+Delete_ticket.c(126):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5433ms: 742-byte response body for "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=25)
+Delete_ticket.c(126): t=5435ms: Request done "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif"  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=5438ms: 733-byte response body for "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=26)
+Delete_ticket.c(126): t=5439ms: Request done "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif"  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): t=5440ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/home.gif" (RelFrameId=, Internal ID=27)
+Delete_ticket.c(126):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(126):     Server: Xitami\r\n
+Delete_ticket.c(126):     Date: Tue, 28 Jun 2022 18:43:30 GMT\r\n
+Delete_ticket.c(126):     Content-type: image/gif\r\n
+Delete_ticket.c(126):     Content-length: 688\r\n
+Delete_ticket.c(126):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Delete_ticket.c(126):     \r\n
+Delete_ticket.c(126): t=5444ms: 688-byte response body for "http://127.0.0.1:8090/WebTours/images/home.gif" (RelFrameId=, Internal ID=27)
+Delete_ticket.c(126): t=5445ms: Request done "http://127.0.0.1:8090/WebTours/images/home.gif"  	[MsgId: MMSG-26000]
+Delete_ticket.c(126): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+Delete_ticket.c(126): Notify: Saving Parameter "not_flights = 0".
+Delete_ticket.c(126): Registered web_reg_find successful for "Text=Flights List" (count=1)  	[MsgId: MMSG-26364]
+Delete_ticket.c(126): web_url("Itinerary Button") was successful, 7619 body bytes, 1337 header bytes  	[MsgId: MMSG-26386]
+Delete_ticket.c(136): Notify: Parameter Substitution: parameter "not_flights" =  "0"
+Delete_ticket.c(140): web_reg_save_param started  	[MsgId: MMSG-26355]
+Delete_ticket.c(140): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Delete_ticket.c(146): web_reg_save_param started  	[MsgId: MMSG-26355]
+Delete_ticket.c(146): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Delete_ticket.c(152): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(152): t=5545ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(152): t=5545ms: 697-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=28)
+Delete_ticket.c(152):     GET /WebTours/welcome.pl?page=itinerary HTTP/1.1\r\n
+Delete_ticket.c(152):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Delete_ticket.c(152):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(152):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(152):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(152):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(152):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(152):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(152):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(152):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(152):     Accept: */*\r\n
+Delete_ticket.c(152):     Connection: Keep-Alive\r\n
+Delete_ticket.c(152):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(152):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(152):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(152):     Date&%0A\r\n
+Delete_ticket.c(152):     \r\n
+Delete_ticket.c(152): t=6005ms: 175-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=28)
+Delete_ticket.c(152):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(152):     Server: Xitami\r\n
+Delete_ticket.c(152):     Date: Tue, 28 Jun 2022 18:43:31 GMT\r\n
+Delete_ticket.c(152):     Cache-control: no-cache\r\n
+Delete_ticket.c(152):     Expires: 0\r\n
+Delete_ticket.c(152):     Content-length: 535\r\n
+Delete_ticket.c(152):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(152):     \r\n
+Delete_ticket.c(152): t=6012ms: 535-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=28)
+Delete_ticket.c(152):     <!-- \n
+Delete_ticket.c(152):      User wants the intineraries.  Since user has already logged on,\n
+Delete_ticket.c(152):      we can give them the menu in the navbar.\n
+Delete_ticket.c(152):      --->\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     <html>\n
+Delete_ticket.c(152):     <title>Web Tours</title>\n
+Delete_ticket.c(152):        <!-- Frame Set -->\n
+Delete_ticket.c(152):        <frameset cols="160,*" border=1 frameborder=1>\n
+Delete_ticket.c(152):           <!-- Navigation Frame -->\n
+Delete_ticket.c(152):           <frame src=nav.pl?page=menu&in=itinerary name=navbar \n
+Delete_ticket.c(152):                 marginheight=2 marginwidth=2 noresize scrolling=auto>\n
+Delete_ticket.c(152):           <!-- Itinerary Frame -->\n
+Delete_ticket.c(152):           <frame src=itinerary.pl name=info \n
+Delete_ticket.c(152):                 marginheight=2 marginwidth=2 noresize scrolling=auto>\n
+Delete_ticket.c(152):        </frameset>\n
+Delete_ticket.c(152): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Delete_ticket.c(152): Detected non-resource "http://127.0.0.1:8090/WebTours/itinerary.pl" in "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Delete_ticket.c(152): t=6017ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26000]
+Delete_ticket.c(152): t=6017ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(152): t=6018ms: 702-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=29)
+Delete_ticket.c(152):     GET /WebTours/nav.pl?page=menu&in=itinerary HTTP/1.1\r\n
+Delete_ticket.c(152):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary\r\n
+Delete_ticket.c(152):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(152):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(152):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(152):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(152):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(152):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(152):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(152):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(152):     Accept: */*\r\n
+Delete_ticket.c(152):     Connection: Keep-Alive\r\n
+Delete_ticket.c(152):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(152):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(152):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(152):     Date&%0A\r\n
+Delete_ticket.c(152):     \r\n
+Delete_ticket.c(152): t=6021ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(152): t=6021ms: 685-byte request headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=30)
+Delete_ticket.c(152):     GET /WebTours/itinerary.pl HTTP/1.1\r\n
+Delete_ticket.c(152):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary\r\n
+Delete_ticket.c(152):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(152):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(152):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(152):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(152):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(152):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(152):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(152):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(152):     Accept: */*\r\n
+Delete_ticket.c(152):     Connection: Keep-Alive\r\n
+Delete_ticket.c(152):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(152):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(152):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(152):     Date&%0A\r\n
+Delete_ticket.c(152):     \r\n
+Delete_ticket.c(152): t=6536ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=30)
+Delete_ticket.c(152):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(152):     Server: Xitami\r\n
+Delete_ticket.c(152):     Date: Tue, 28 Jun 2022 18:43:31 GMT\r\n
+Delete_ticket.c(152):     Cache-control: no-cache\r\n
+Delete_ticket.c(152):     Expires: 0\r\n
+Delete_ticket.c(152):     Content-length: 2614\r\n
+Delete_ticket.c(152):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(152):     Date: Tue, 28 Jun 2022 18:43:31 GMT\r\n
+Delete_ticket.c(152):     Expires: Mon, 27 Jun 2022 18:43:31 GMT\r\n
+Delete_ticket.c(152):     \r\n
+Delete_ticket.c(152): t=6539ms: 2614-byte response body for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=30)
+Delete_ticket.c(152):     <!DOCTYPE html\n
+Delete_ticket.c(152):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(152):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(152):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(152):     <head>\n
+Delete_ticket.c(152):     <title>Flights List</title>\n
+Delete_ticket.c(152):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(152):     </head>\n
+Delete_ticket.c(152):     <body bgcolor="#E0E7F1">\n
+Delete_ticket.c(152):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Delete_ticket.c(152):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Delete_ticket.c(152):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Delete_ticket.c(152):     </style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquot
+Delete_ticket.c(152):     e><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">\n
+Delete_ticket.c(152):     <center>\n
+Delete_ticket.c(152):     <TABLE BORDER=0 WIDTH=85% CELLSPACING=0>\n
+Delete_ticket.c(152):     <TR bgcolor=#5E7884>\n
+Delete_ticket.c(152):       <TD colspan=4 align=center><font color=white><B>Dmitr Tryan\n
+Delete_ticket.c(152):      's Flight Transaction Summary</B></color></TD></TR>\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     <!-- Flight #1 -->\n
+Delete_ticket.c(152):     <TR bgcolor=#EFF2F7>\n
+Delete_ticket.c(152):       <TD width=5% rowspan=2 align=left valign=top>\n
+Delete_ticket.c(152):     <b>\n
+Delete_ticket.c(152):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
+Delete_ticket.c(152):     <input type="hidden" name="flightID" value="289223423-100070-DT"  />\n
+Delete_ticket.c(152):       </TD>\n
+Delete_ticket.c(152):       <TD width=45% valign=top>\n
+Delete_ticket.c(152):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Delete_ticket.c(152):           <center><table border=0 width=85%><tr><td>\n
+Delete_ticket.c(152):           <li><i>Dmitr\n
+Delete_ticket.c(152):           <li><i></i>\n
+Delete_ticket.c(152):           </td></tr></table></center>\n
+Delete_ticket.c(152):       </TD>\n
+Delete_ticket.c(152):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Delete_ticket.c(152):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Delete_ticket.c(152):           <center>\n
+Delete_ticket.c(152):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Delete_ticket.c(152):               Dmitr Tryan\n
+Delete_ticket.c(152):     <br>\n
+Delete_ticket.c(152):               Vaneev<br>\n
+Delete_ticket.c(152):               Sarans<br>\n
+Delete_ticket.c(152):               <br>\n
+Delete_ticket.c(152):               Total Charge: $ 918 <BR> (CC: x-7809)\n
+Delete_ticket.c(152):           </td> </tr> </table>\n
+Delete_ticket.c(152):           </center>\n
+Delete_ticket.c(152):       </TD>\n
+Delete_ticket.c(152):     </TR>\n
+Delete_ticket.c(152):     <TR bgcolor=#EFF2F7>\n
+Delete_ticket.c(152):       <TD COLSPAN=3>\n
+Delete_ticket.c(152):       <b>Flight Details:</b><BR>  <center>\n
+Delete_ticket.c(152):       09/22/2022\n
+Delete_ticket.c(152):      :  5pm : Flight 032 leaves Denver  for Los Angeles.<br>  09/23/2022\n
+Delete_ticket.c(152):      :  8am : Flight 300 leaves Los Angeles  for Denver.<br>  </center>\n
+Delete_ticket.c(152):       </TD>\n
+Delete_ticket.c(152):     </TR>\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     <TR bgcolor=#EFF2F7>\n
+Delete_ticket.c(152):       <TD COLSPAN=4>\n
+Delete_ticket.c(152):       <hr>\n
+Delete_ticket.c(152):       </TD>\n
+Delete_ticket.c(152):     </TR>\n
+Delete_ticket.c(152):     <TR>\n
+Delete_ticket.c(152):        <TD align=center COLSPAN=4>\n
+Delete_ticket.c(152):        <b>A total of 1 scheduled flights.</font></b>\n
+Delete_ticket.c(152):        </TD>\n
+Delete_ticket.c(152):     </TR>\n
+Delete_ticket.c(152):     </TABLE>\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     <TABLE WIDTH=87% BORDER=0 CELLSPACING=0>\n
+Delete_ticket.c(152):     <TR>\n
+Delete_ticket.c(152):     <TD align=left width=50% >\n
+Delete_ticket.c(152):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+Delete_ticket.c(152):     er="0" /></TD>\n
+Delete_ticket.c(152):     <TD align=right width=50% >\n
+Delete_ticket.c(152):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+Delete_ticket.c(152):     f" border="0" /></TD>\n
+Delete_ticket.c(152):     </TABLE>\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     <div><input type="hidden" name=".cgifields" value="1"  /></div></form>\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     </center>\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     </body>\n
+Delete_ticket.c(152):     </html>
+Delete_ticket.c(152): Notify: Saving Parameter "c_flightids_1 = 289223423-100070-DT".
+Delete_ticket.c(152): Notify: Saving Parameter "c_cgifields_1 = 1".
+Delete_ticket.c(152): Resource "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(152): Resource "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(152): t=6562ms: Request done "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26000]
+Delete_ticket.c(152): t=6563ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=29)
+Delete_ticket.c(152):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(152):     Server: Xitami\r\n
+Delete_ticket.c(152):     Date: Tue, 28 Jun 2022 18:43:31 GMT\r\n
+Delete_ticket.c(152):     Cache-control: no-cache\r\n
+Delete_ticket.c(152):     Expires: 0\r\n
+Delete_ticket.c(152):     Content-length: 1476\r\n
+Delete_ticket.c(152):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(152):     Date: Tue, 28 Jun 2022 18:43:31 GMT\r\n
+Delete_ticket.c(152):     Expires: Mon, 27 Jun 2022 18:43:31 GMT\r\n
+Delete_ticket.c(152):     \r\n
+Delete_ticket.c(152): t=6566ms: 1476-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=29)
+Delete_ticket.c(152):     <!DOCTYPE html\n
+Delete_ticket.c(152):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(152):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(152):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(152):     <head>\n
+Delete_ticket.c(152):     <title>Web Tours Navigation Bar</title>\n
+Delete_ticket.c(152):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(152):     </head>\n
+Delete_ticket.c(152):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     <style>\n
+Delete_ticket.c(152):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(152):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Delete_ticket.c(152):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(152):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(152):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Delete_ticket.c(152):     N: none}\n
+Delete_ticket.c(152):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Delete_ticket.c(152):     CORATION: underline}\n
+Delete_ticket.c(152):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(152):     </style>\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     <BR><BR><center>\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     <br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebT
+Delete_ticket.c(152):     ours/images/flights.gif \n
+Delete_ticket.c(152):     ALT="Search Flights Button"></A>\n
+Delete_ticket.c(152):     <br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/
+Delete_ticket.c(152):     images/in_itinerary.gif \n
+Delete_ticket.c(152):     ALT="Itinerary Button"></A>\n
+Delete_ticket.c(152):     <br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/imag
+Delete_ticket.c(152):     es/home.gif \n
+Delete_ticket.c(152):     ALT="Home Button"></A>\n
+Delete_ticket.c(152):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/image
+Delete_ticket.c(152):     s/signoff.gif \n
+Delete_ticket.c(152):     ALT="SignOff Button"></A></center>\n
+Delete_ticket.c(152):     \n
+Delete_ticket.c(152):     </body>\n
+Delete_ticket.c(152):     </html>\n
+Delete_ticket.c(152): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(152): Resource "http://127.0.0.1:8090/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(152): Resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(152): Resource "http://127.0.0.1:8090/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(152): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(152): t=6577ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26000]
+Delete_ticket.c(152): Notify: Saving Parameter "c_flightids_count = 1".
+Delete_ticket.c(152): Notify: Saving Parameter "c_cgifields_count = 1".
+Delete_ticket.c(152): web_url("Itinerary Button") was successful, 4625 body bytes, 681 header bytes  	[MsgId: MMSG-26386]
+Delete_ticket.c(164): Notify: Transaction "Itineraries" ended with a "Pass" status (Duration: 2,2805 Wasted Time: 0,0331).
+Delete_ticket.c(166): Notify: Transaction "CancelItinerary" started.
+Delete_ticket.c(168): Notify: Parameter Substitution: parameter "not_flights" =  "0"
+Delete_ticket.c(172): Notify: Parameter Substitution: parameter "c_flightids_count" =  "1"
+Delete_ticket.c(172): Notify: Saving Parameter "c_buffer = 1=on&".
+Delete_ticket.c(174): Notify: Parameter Substitution: parameter "c_flightids_count" =  "1"
+Delete_ticket.c(176): Notify: Parameter Substitution: parameter "c_buffer" =  "1=on&"
+Delete_ticket.c(176): Notify: Parameter Substitution: parameter "c_flightids_1" =  "289223423-100070-DT"
+Delete_ticket.c(176): Notify: Saving Parameter "c_buffer = 1=on&flightID=289223423-100070-DT&".
+Delete_ticket.c(178): Notify: Parameter Substitution: parameter "c_buffer" =  "1=on&flightID=289223423-100070-DT&"
+Delete_ticket.c(178): Notify: Parameter Substitution: parameter "c_cgifields_1" =  "1"
+Delete_ticket.c(178): Notify: Saving Parameter "c_buffer = 1=on&flightID=289223423-100070-DT&.cgifields=1&".
+Delete_ticket.c(174): Notify: Parameter Substitution: parameter "c_flightids_count" =  "1"
+Delete_ticket.c(181): Notify: Parameter Substitution: parameter "c_buffer" =  "1=on&flightID=289223423-100070-DT&.cgifields=1&"
+Delete_ticket.c(181): Notify: Saving Parameter "c_wcr = 1=on&flightID=289223423-100070-DT&.cgifields=1&removeFlights.x=36&removeFlights.y=4".
+Delete_ticket.c(183): Notify: Parameter Substitution: parameter "c_flightids_count" =  "1"
+Delete_ticket.c(183): Notify: Parameter Substitution: parameter "c_flightids_1" =  "289223423-100070-DT"
+Delete_ticket.c(183): Notify: Saving Parameter "c_cancelflight = 289223423-100070-DT".
+Delete_ticket.c(185): web_reg_find started  	[MsgId: MMSG-26355]
+Delete_ticket.c(185): Notify: Parameter Substitution: parameter "c_cancelflight" =  "289223423-100070-DT"
+Delete_ticket.c(185): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Delete_ticket.c(187): web_custom_request("itinerary.pl_2") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(187): Notify: Parameter Substitution: parameter "c_wcr" =  "1=on&flightID=289223423-100070-DT&.cgifields=1&removeFlights.x=36&removeFlights.y=4"
+Delete_ticket.c(187): t=6812ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(187): t=6813ms: 742-byte request headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=31)
+Delete_ticket.c(187):     POST /WebTours/itinerary.pl HTTP/1.1\r\n
+Delete_ticket.c(187):     Content-Type: application/x-www-form-urlencoded\r\n
+Delete_ticket.c(187):     Referer: http://127.0.0.1:8090/WebTours/itinerary.pl\r\n
+Delete_ticket.c(187):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(187):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(187):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(187):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(187):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(187):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(187):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(187):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(187):     Accept: */*\r\n
+Delete_ticket.c(187):     Connection: Keep-Alive\r\n
+Delete_ticket.c(187):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(187):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(187):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(187):     Date&%0A\r\n
+Delete_ticket.c(187):     Content-Length: 83\r\n
+Delete_ticket.c(187):     \r\n
+Delete_ticket.c(187): t=6816ms: 83-byte request body for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=31)
+Delete_ticket.c(187):     1=on&flightID=289223423-100070-DT&.cgifields=1&removeFlights.x=36&removeFlights.y=4
+Delete_ticket.c(187): t=7284ms: 252-byte response headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=31)
+Delete_ticket.c(187):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(187):     Server: Xitami\r\n
+Delete_ticket.c(187):     Date: Tue, 28 Jun 2022 18:43:32 GMT\r\n
+Delete_ticket.c(187):     Cache-control: no-cache\r\n
+Delete_ticket.c(187):     Expires: 0\r\n
+Delete_ticket.c(187):     Content-length: 883\r\n
+Delete_ticket.c(187):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(187):     Date: Tue, 28 Jun 2022 18:43:32 GMT\r\n
+Delete_ticket.c(187):     Expires: Mon, 27 Jun 2022 18:43:32 GMT\r\n
+Delete_ticket.c(187):     \r\n
+Delete_ticket.c(187): t=7292ms: 883-byte response body for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=31)
+Delete_ticket.c(187):     <!DOCTYPE html\n
+Delete_ticket.c(187):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(187):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(187):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(187):     <head>\n
+Delete_ticket.c(187):     <title>Flights List</title>\n
+Delete_ticket.c(187):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(187):     </head>\n
+Delete_ticket.c(187):     <body bgcolor="#E0E7F1">\n
+Delete_ticket.c(187):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Delete_ticket.c(187):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Delete_ticket.c(187):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Delete_ticket.c(187):     </style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquot
+Delete_ticket.c(187):     e><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">\n
+Delete_ticket.c(187):     <center><H3>No flights have been reserved.</H3></center>\n
+Delete_ticket.c(187):     </form>\n
+Delete_ticket.c(187):     \n
+Delete_ticket.c(187):     </center>\n
+Delete_ticket.c(187):     \n
+Delete_ticket.c(187):     </body>\n
+Delete_ticket.c(187):     </html>
+Delete_ticket.c(187): t=7309ms: Request done "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26000]
+Delete_ticket.c(187): Registered web_reg_find successful for "Text=289223423-100070-DT"  	[MsgId: MMSG-26362]
+Delete_ticket.c(187): web_custom_request("itinerary.pl_2") was successful, 883 body bytes, 252 header bytes  	[MsgId: MMSG-26386]
+Delete_ticket.c(199): Notify: Transaction "CancelItinerary" ended with a "Pass" status (Duration: 0,7092 Wasted Time: 0,0108).
+Delete_ticket.c(201): Notify: Transaction "Logout" started.
+Delete_ticket.c(203): web_reg_find started  	[MsgId: MMSG-26355]
+Delete_ticket.c(203): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Delete_ticket.c(205): web_url("welcome.pl_2") started  	[MsgId: MMSG-26355]
+Delete_ticket.c(205): t=7378ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(205): t=7379ms: 697-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=32)
+Delete_ticket.c(205):     GET /WebTours/welcome.pl?signOff=1 HTTP/1.1\r\n
+Delete_ticket.c(205):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary\r\n
+Delete_ticket.c(205):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(205):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(205):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(205):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(205):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(205):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(205):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(205):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(205):     Accept: */*\r\n
+Delete_ticket.c(205):     Connection: Keep-Alive\r\n
+Delete_ticket.c(205):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(205):     Cookie: MSO=SID&1656441807&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Delete_ticket.c(205):     MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&exp
+Delete_ticket.c(205):     Date&%0A\r\n
+Delete_ticket.c(205):     \r\n
+Delete_ticket.c(205): t=7838ms: 386-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=32)
+Delete_ticket.c(205):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(205):     Server: Xitami\r\n
+Delete_ticket.c(205):     Date: Tue, 28 Jun 2022 18:43:32 GMT\r\n
+Delete_ticket.c(205):     Cache-control: no-cache\r\n
+Delete_ticket.c(205):     Expires: 0\r\n
+Delete_ticket.c(205):     Content-length: 630\r\n
+Delete_ticket.c(205):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(205):     Date: Tue, 28 Jun 2022 18:43:32 GMT\r\n
+Delete_ticket.c(205):     Set-cookie: MTUserInfo=; path=/; expires=Mon, 27-Jun-2022 18:43:32 GMT\r\n
+Delete_ticket.c(205):     Set-cookie: MSO=SID&1656441812&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+Delete_ticket.c(205):     50; path=/\r\n
+Delete_ticket.c(205):     \r\n
+Delete_ticket.c(205): t=7845ms: 630-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=32)
+Delete_ticket.c(205):     <!-- \n
+Delete_ticket.c(205):      A Session ID has been created and loaded into a cookie called MSO.\n
+Delete_ticket.c(205):      Also, the server options have been loaded into the cookie called\n
+Delete_ticket.c(205):      MSO as well.  The server options can be set via the Admin page.\n
+Delete_ticket.c(205):      --->\n
+Delete_ticket.c(205):     \n
+Delete_ticket.c(205):     <html>\n
+Delete_ticket.c(205):     <title>Web Tours</title>\n
+Delete_ticket.c(205):        <!-- Frame Set -->\n
+Delete_ticket.c(205):        <frameset cols="160,*" border=1 frameborder=1>\n
+Delete_ticket.c(205):           <!-- Navigation Frame -->\n
+Delete_ticket.c(205):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+Delete_ticket.c(205):                 noresize scrolling=auto>\n
+Delete_ticket.c(205):           <!-- Home Frame -->\n
+Delete_ticket.c(205):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+Delete_ticket.c(205):                 noresize scrolling=auto>\n
+Delete_ticket.c(205):        </frameset>\n
+Delete_ticket.c(205):     \n
+Delete_ticket.c(205):     </body>\n
+Delete_ticket.c(205):     </html>
+Delete_ticket.c(205): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?in=home" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Delete_ticket.c(205): Detected non-resource "http://127.0.0.1:8090/WebTours/home.html" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Delete_ticket.c(205): Retrieving data from cache for "http://127.0.0.1:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
+Delete_ticket.c(205): t=7853ms: 1322-byte response body retrieved from cache for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=34)
+Delete_ticket.c(205):     <HTML>\n
+Delete_ticket.c(205):     <HEAD>\n
+Delete_ticket.c(205):     \t<title>Web Tours</title>\n
+Delete_ticket.c(205):     </head>\n
+Delete_ticket.c(205):     <style>\n
+Delete_ticket.c(205):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(205):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Delete_ticket.c(205):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(205):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(205):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Delete_ticket.c(205):     N: none}\n
+Delete_ticket.c(205):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Delete_ticket.c(205):     CORATION: underline}\n
+Delete_ticket.c(205):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(205):     </style>\n
+Delete_ticket.c(205):     <body bgcolor=#e0e7f1>\n
+Delete_ticket.c(205):     <BR>\n
+Delete_ticket.c(205):     <BR>\n
+Delete_ticket.c(205):     <BR>\n
+Delete_ticket.c(205):     <br >\n
+Delete_ticket.c(205):     <table border=0>\n
+Delete_ticket.c(205):     <tr><td></td></tr>\n
+Delete_ticket.c(205):     <TR><TD></TD></TR>\n
+Delete_ticket.c(205):     <TR><TD>\n
+Delete_ticket.c(205):     <blockquote>\n
+Delete_ticket.c(205):     <H1><b>Web Tours</b></H1>\n
+Delete_ticket.c(205):     Welcome to the Web Tours site.\n
+Delete_ticket.c(205):     <br>\n
+Delete_ticket.c(205):     To make reservations,please enter your account information to the left.\n
+Delete_ticket.c(205):     <br>\n
+Delete_ticket.c(205):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+Delete_ticket.c(205):      ><B>sign up now</B></A> to get access to all our resources.\n
+Delete_ticket.c(205):     <br>\n
+Delete_ticket.c(205):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+Delete_ticket.c(205):     </A> link.\n
+Delete_ticket.c(205):     <br><br><br><br><br><br>\n
+Delete_ticket.c(205):     <br><small>\n
+Delete_ticket.c(205):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Delete_ticket.c(205):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+Delete_ticket.c(205):     </small>\n
+Delete_ticket.c(205):     </blockquote></TD>\n
+Delete_ticket.c(205):     <TD></TD></TR>\n
+Delete_ticket.c(205):     </table>\n
+Delete_ticket.c(205):     </body>\n
+Delete_ticket.c(205):     </html>\n
+Delete_ticket.c(205): t=7863ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+Delete_ticket.c(205): t=7864ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Delete_ticket.c(205): t=7864ms: 582-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=33)
+Delete_ticket.c(205):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+Delete_ticket.c(205):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1\r\n
+Delete_ticket.c(205):     Sec-Fetch-Site: same-origin\r\n
+Delete_ticket.c(205):     Upgrade-Insecure-Requests: 1\r\n
+Delete_ticket.c(205):     Sec-Fetch-Mode: nested-navigate\r\n
+Delete_ticket.c(205):     Sec-Fetch-User: ?1\r\n
+Delete_ticket.c(205):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Delete_ticket.c(205):     o) Chrome/76.0.3809.87 Safari/537.36\r\n
+Delete_ticket.c(205):     Accept-Encoding: gzip, deflate, br\r\n
+Delete_ticket.c(205):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Delete_ticket.c(205):     Accept: */*\r\n
+Delete_ticket.c(205):     Connection: Keep-Alive\r\n
+Delete_ticket.c(205):     Host: 127.0.0.1:8090\r\n
+Delete_ticket.c(205):     Cookie: MSO=SID&1656441812&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Delete_ticket.c(205):     \n
+Delete_ticket.c(205):     \r\n
+Delete_ticket.c(205): t=8314ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=33)
+Delete_ticket.c(205):     HTTP/1.1 200 Ok\r\n
+Delete_ticket.c(205):     Server: Xitami\r\n
+Delete_ticket.c(205):     Date: Tue, 28 Jun 2022 18:43:33 GMT\r\n
+Delete_ticket.c(205):     Cache-control: no-cache\r\n
+Delete_ticket.c(205):     Expires: 0\r\n
+Delete_ticket.c(205):     Content-length: 2754\r\n
+Delete_ticket.c(205):     Content-type: text/html; charset=ISO-8859-1\r\n
+Delete_ticket.c(205):     Date: Tue, 28 Jun 2022 18:43:33 GMT\r\n
+Delete_ticket.c(205):     Expires: Mon, 27 Jun 2022 18:43:33 GMT\r\n
+Delete_ticket.c(205):     \r\n
+Delete_ticket.c(205): t=8317ms: 2754-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=33)
+Delete_ticket.c(205):     <!-- Comments option is ON \n
+Delete_ticket.c(205):     \n
+Delete_ticket.c(205):     These are used to make the automated parsing difficult.\n
+Delete_ticket.c(205):     User must try and get the UserSession value.  There are several here, with similar boundar
+Delete_ticket.c(205):     ies.\n
+Delete_ticket.c(205):     But none are the right value.\n
+Delete_ticket.c(205):     \n
+Delete_ticket.c(205):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+Delete_ticket.c(205):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+Delete_ticket.c(205):     <style>\n
+Delete_ticket.c(205):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(205):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+Delete_ticket.c(205):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(205):     </style>\n
+Delete_ticket.c(205):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+Delete_ticket.c(205):     <form method=post action=login.pl target=body>\n
+Delete_ticket.c(205):     <input type=hidden name=userSession value=7461134179.166626164zQAVitApiiDDDDDDtVtVVpAtfD>\n
+Delete_ticket.c(205):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+Delete_ticket.c(205):     <input type=hidden name=userSession value=1134179.166626164zQAVitApiiDDDDDDtVtVVpAtfD>\n
+Delete_ticket.c(205):     <table border=0>\n
+Delete_ticket.c(205):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+Delete_ticket.c(205):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+Delete_ticket.c(205):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+Delete_ticket.c(205):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+Delete_ticket.c(205):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+Delete_ticket.c(205):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+Delete_ticket.c(205):     mer_login.gif'>\n
+Delete_ticket.c(205):     </table></form>\n
+Delete_ticket.c(205):     </BODY></HTML>\n
+Delete_ticket.c(205):     -->\n
+Delete_ticket.c(205):     <!DOCTYPE html\n
+Delete_ticket.c(205):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Delete_ticket.c(205):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Delete_ticket.c(205):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Delete_ticket.c(205):     <head>\n
+Delete_ticket.c(205):     <title>Web Tours Navigation Bar</title>\n
+Delete_ticket.c(205):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Delete_ticket.c(205):     </head>\n
+Delete_ticket.c(205):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+Delete_ticket.c(205):     <style>\n
+Delete_ticket.c(205):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Delete_ticket.c(205):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Delete_ticket.c(205):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Delete_ticket.c(205):     small {font-family: tahoma; font-size : 8pt}\n
+Delete_ticket.c(205):     </style>\n
+Delete_ticket.c(205):     <form method=post action=login.pl target=body>\n
+Delete_ticket.c(205):     <input type=hidden name=userSession value=134179.166626164zQAVitApiiDDDDDDtVtVVpAtfD>\n
+Delete_ticket.c(205):     <table border=0><tr><td>&nbsp;</td>\n
+Delete_ticket.c(205):     <td>&nbsp;</td>\n
+Delete_ticket.c(205):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(205):     <td>&nbsp;</td></tr>\n
+Delete_ticket.c(205):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(205):     <td><small>&nbsp;Username</small></td></tr>\n
+Delete_ticket.c(205):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(205):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+Delete_ticket.c(205):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(205):     <td><small>&nbsp;Password</small></td>\n
+Delete_ticket.c(205):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(205):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+Delete_ticket.c(205):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(205):     <td>&nbsp;<tr><td>\n
+Delete_ticket.c(205):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(205):     <td><input type=image name=login value=Login alt=Login border=1 \n
+Delete_ticket.c(205):     src='/WebTours/images/mer_login.gif'>\n
+Delete_ticket.c(205):     <tr><td>&nbsp;</td>\n
+Delete_ticket.c(205):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+Delete_ticket.c(205):     </form>\n
+Delete_ticket.c(205):     \n
+Delete_ticket.c(205):     </body>\n
+Delete_ticket.c(205):     </html>\n
+Delete_ticket.c(205): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(205): Resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(205): t=8330ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Delete_ticket.c(205): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+Delete_ticket.c(205): web_url("welcome.pl_2") was successful, 3384 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+Delete_ticket.c(215): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 1,0457 Wasted Time: 0,0122).
+Delete_ticket.c(217): Notify: Transaction "02_Delete_ticket" ended with a "Pass" status (Duration: 7,7939 Wasted Time: 0,3012).
+Ending action Delete_ticket.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=8453ms: Closed connection [0] to 127.0.0.1:8090 after completing 11 request(s)  	[MsgId: MMSG-26000]
+t=8454ms: Closed connection [1] to 127.0.0.1:8090 after completing 8 request(s)  	[MsgId: MMSG-26000]
+t=8454ms: Closed connection [2] to 127.0.0.1:8090 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=8454ms: Closed connection [3] to 127.0.0.1:8090 after completing 3 request(s)  	[MsgId: MMSG-26000]
+t=8454ms: Closed connection [4] to 127.0.0.1:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]

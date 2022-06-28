@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=Denver&departDate=12%2F22%2F2022&arrive=San+Francisco&returnDate=12%2"
+"F23%2F2022&numPassengers=1&roundtrip=on&seatPref=Window&seatType=Business&findFlights.x=56&fin"
+"dFlights.y=14&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

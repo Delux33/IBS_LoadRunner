@@ -1,0 +1,20 @@
+[t7]
+FileName2=t7f0.html
+RawStepEndTime=1656445369472
+UseFrameIndex=1
+RequestBodyFile=t7_RequestBody.txt
+RawStepName=welcome.pl_2
+ContentType=text/html
+URL1=http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1
+URL2=http://127.0.0.1:8090/WebTours/nav.pl?in=home
+URL3=http://127.0.0.1:8090/WebTours/home.html
+ResponseHeaderFile=t7_ResponseHeader.txt
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RawStepStartTime=1656445366815
+Total=3
+StepName=Url: welcome.pl_2
+FrameIndex2=0.0
+FrameIndex3=0.1
+FileName1=t7.html
+FileName3=t7f1.html

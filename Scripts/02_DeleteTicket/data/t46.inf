@@ -1,0 +1,11 @@
+[t46]
+FileName1=t46.html
+URL1=http://127.0.0.1:8090/WebTours/nav.pl?username=jojo&password=BEAN
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_42.xml
+RequestHeaderFile=t46_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t46_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

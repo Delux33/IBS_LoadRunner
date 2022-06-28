@@ -1,0 +1,11 @@
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Tue, 28 Jun 2022 14:44:31 GMT
+Cache-control: no-cache
+Expires: 0
+Content-length: 1073
+Content-type: text/html; charset=ISO-8859-1
+Date: Tue, 28 Jun 2022 14:44:31 GMT
+Expires: 5s
+Set-cookie: MTUserInfo=firstName&Dmitrii&address2&City&username&Dima&hash&65&lastName&Tryanin&address1&street&creditCard&&expDate&; path=/
+

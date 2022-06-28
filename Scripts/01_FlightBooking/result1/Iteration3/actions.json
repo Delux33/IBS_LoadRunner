@@ -1,0 +1,99 @@
+[
+    {
+        "actionName": "Flights_Booking",
+        "steps": [
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1656441507217
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: header.html",
+                "infFile": "t2.inf",
+                "time": 1656441507296
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t4.inf",
+                "time": 1656441508149
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t5.inf",
+                "time": 1656441509285
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t6.inf",
+                "time": 1656441510420
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t9.inf",
+                "time": 1656441511003
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t10.inf",
+                "time": 1656441511594
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t11.inf",
+                "time": 1656441512177
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Web_tours",
+                "rawStartTime": 1656441506415,
+                "rawEndTime": 1656441508155,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06937861442565918
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1656441508171,
+                "rawEndTime": 1656441509289,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01906585693359375
+            },
+            {
+                "transactionName": "Togo_info_about_flight",
+                "rawStartTime": 1656441509305,
+                "rawEndTime": 1656441511006,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05756497383117676
+            },
+            {
+                "transactionName": "Find_flight",
+                "rawStartTime": 1656441511023,
+                "rawEndTime": 1656441511598,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018109798431396486
+            },
+            {
+                "transactionName": "Payment_details",
+                "rawStartTime": 1656441511614,
+                "rawEndTime": 1656441512193,
+                "thinkTime": 0.0,
+                "wastedTime": 0.019030332565307618
+            },
+            {
+                "transactionName": "01_Flights_booking",
+                "rawStartTime": 1656441506399,
+                "rawEndTime": 1656441512208,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1831495761871338
+            }
+        ]
+    }
+]

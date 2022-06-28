@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Version: 456681547
+Content-Type: application/json; charset=UTF-8
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+BFCache-Opt-In: unload
+Content-Disposition: attachment; filename="f.txt"
+Content-Encoding: br
+Date: Tue, 28 Jun 2022 15:18:52 GMT
+Server: gws
+Content-Length: 40940
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

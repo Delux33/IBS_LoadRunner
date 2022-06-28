@@ -1,0 +1,16 @@
+[parameter:login]
+Format="%lu"
+GenerateNewVal="EachOccurrence"
+MaxValue="4294967295"
+MinValue="1"
+OriginalValue=""
+ParamName="login"
+Type="Random"
+[parameter:password]
+Format="%lu"
+GenerateNewVal="EachOccurrence"
+MaxValue="4294967295"
+MinValue="1"
+OriginalValue=""
+ParamName="password"
+Type="Random"

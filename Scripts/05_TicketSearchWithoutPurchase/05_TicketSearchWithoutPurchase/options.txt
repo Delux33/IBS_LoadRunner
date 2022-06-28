@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Дмитрий\Documents\VuGen\Scripts\05_TicketSearchWithoutPurchase
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\дмитрий\documents\vugen\scripts\05_ticketsearchwithoutpurchase\\logfile.log
+c:\users\дмитрий\documents\vugen\scripts\05_ticketsearchwithoutpurchase\\combined_05_TicketSearchWithoutPurchase.c
+c:\users\дмитрий\documents\vugen\scripts\05_ticketsearchwithoutpurchase\\pre_cci.c

@@ -1,0 +1,13 @@
+<!--
+User password was incorrect.  Prompt the user to fix password or sign-up...
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src=nav.pl?username=jojo&password=&#1080;&#1091;&#1092;&#1090; name=navbar marginheight=2 marginwidth=2 noresize scrolling=auto>
+<frame src=error.pl?error=badPassword name=info marginheight=2 marginwidth=2 noresize scrolling=auto>
+</frameset>
+
+</body>
+</html>

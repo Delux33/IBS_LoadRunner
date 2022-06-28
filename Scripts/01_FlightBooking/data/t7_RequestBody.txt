@@ -1,0 +1,2 @@
+"outboundFlight=021%3B437%3B06%2F22%2F2022&returnFlight=202%3B464%3B06%2F23%2F2022&numPassenger"
+"s=1&advanceDiscount=0&seatType=Business&seatPref=Window&reserveFlights.x=50&reserveFlights.y=7"

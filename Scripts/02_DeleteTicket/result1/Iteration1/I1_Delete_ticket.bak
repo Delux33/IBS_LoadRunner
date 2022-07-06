@@ -1,5 +1,9 @@
 [t23]
-PassCount=1
+Pass2=t9
+Pass3=t10
+Pass4=t11
+Pass5=t12
+PassCount=5
 Pass1=t8
 [t1]
 PassCount=1

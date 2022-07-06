@@ -1,0 +1,68 @@
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+View_itineraries.c(128): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+View_itineraries.c(128): Error -26366: "Text=No flights have been reserved." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+View_itineraries.c(128): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+View_itineraries.c(128): Error -26366: "Text=No flights have been reserved." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+View_itineraries.c(128): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+View_itineraries.c(128): Error -26366: "Text=No flights have been reserved." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+View_itineraries.c(128): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+View_itineraries.c(128): Error -26366: "Text=No flights have been reserved." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+View_itineraries.c(128): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+View_itineraries.c(128): Error -26366: "Text=No flights have been reserved." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 22.	[MsgId: MMSG-10545]
+View_itineraries.c(128): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+View_itineraries.c(128): Error -26366: "Text=No flights have been reserved." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+View_itineraries.c(15): web_add_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+View_itineraries.c(15): web_add_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+View_itineraries.c(18): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+View_itineraries.c(18): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+View_itineraries.c(21): web_reg_find started  	[MsgId: MMSG-26355]
+View_itineraries.c(21): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+View_itineraries.c(23): web_url("WebTours") started  	[MsgId: MMSG-26355]
+View_itineraries.c(23): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+View_itineraries.c(23): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+View_itineraries.c(23): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

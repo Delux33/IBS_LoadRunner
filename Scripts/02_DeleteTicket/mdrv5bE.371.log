@@ -1,0 +1,19 @@
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Delete_ticket.c(130): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(130): Found resource "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26659]
+Delete_ticket.c(130): Found resource "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26659]
+Delete_ticket.c(130): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+Delete_ticket.c(130): Error -26366: "Text=No flights have been reserved." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Delete_ticket.c(130): Resource "http://127.0.0.1:8090/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(130): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Delete_ticket.c(130): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Delete_ticket.c(130): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Delete_ticket.c(130): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+Delete_ticket.c(130): Error -26366: "Text=No flights have been reserved." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

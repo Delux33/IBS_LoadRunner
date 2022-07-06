@@ -1,5 +1,7 @@
 registrationOfNewUsers()
 {
+	int i;
+	
 	lr_start_transaction("03_Registration_of_new_users");
 	
 	lr_start_transaction("Web_tours");
@@ -65,14 +67,20 @@ registrationOfNewUsers()
 		LAST);
 
 	lr_end_transaction("Web_tours",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("Sign_up_now");
 	
 	web_reg_find("Text=First time registering? Please complete the form below",LAST);
 	
-	lr_save_string(lr_eval_string("{login}"),"singletonLogin");
+	lr_param_sprintf("randomLogin", "%s", lr_eval_string("{randomLetter}"));
+	lr_param_sprintf("randomPassword", "%s", lr_eval_string("{randomLetter}"));
 	
-	lr_save_string(lr_eval_string("{password}"),"singletonPassword");
+	for (i = 1; i < atoi(lr_eval_string("{rndNumber}")); i++) {
+		lr_param_sprintf("randomLogin", "%s%s", lr_eval_string("{randomLogin}"), lr_eval_string("{randomLetter}"));
+		lr_param_sprintf("randomPassword", "%s%s%s", lr_eval_string("{randomPassword}"), lr_eval_string("{randomLetter}"), lr_eval_string("{rndNumber}"));
+	}
 
 	web_add_auto_header("Sec-Fetch-User", 
 		"?1");
@@ -88,13 +96,15 @@ registrationOfNewUsers()
 		LAST);
 
 	lr_end_transaction("Sign_up_now",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("Customer_profile");
 
 	web_add_auto_header("Origin", 
 		"http://127.0.0.1:8090");
 	
-	web_reg_find("Text/IC=Thank you, <b>{singletonLogin}</b>, for registering and welcome to the Web Tours family.",LAST);
+	web_reg_find("Text/IC=Thank you, <b>{randomLogin}</b>, for registering and welcome to the Web Tours family.",LAST);
 
 	web_submit_data("login.pl_2", 
 		"Action=http://127.0.0.1:8090/WebTours/login.pl", 
@@ -105,9 +115,9 @@ registrationOfNewUsers()
 		"Snapshot=t14.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=username", "Value={singletonLogin}", ENDITEM, 
-		"Name=password", "Value={singletonPassword}", ENDITEM, 
-		"Name=passwordConfirm", "Value={singletonPassword}", ENDITEM, 
+		"Name=username", "Value={randomLogin}", ENDITEM, 
+		"Name=password", "Value={randomPassword}", ENDITEM, 
+		"Name=passwordConfirm", "Value={randomPassword}", ENDITEM, 
 		"Name=firstName", "Value={firstName}", ENDITEM, 
 		"Name=lastName", "Value={lastName}", ENDITEM, 
 		"Name=address1", "Value={address1}", ENDITEM, 
@@ -117,6 +127,8 @@ registrationOfNewUsers()
 		LAST);
 
 	lr_end_transaction("Customer_profile",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("After_registration_button_continue");
 
@@ -124,7 +136,7 @@ registrationOfNewUsers()
 
 	web_revert_auto_header("Sec-Fetch-User");
 	
-	web_reg_find("Text/IC=Welcome, <b>{singletonLogin}</b>, to the Web Tours reservation pages.",LAST);
+	web_reg_find("Text/IC=Welcome, <b>{randomLogin}</b>, to the Web Tours reservation pages.",LAST);
 
 	web_url("button_next.gif", 
 		"URL=http://127.0.0.1:8090/WebTours/welcome.pl?page=menus", 
@@ -137,6 +149,8 @@ registrationOfNewUsers()
 		LAST);
 
 	lr_end_transaction("After_registration_button_continue",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("Logout");
 

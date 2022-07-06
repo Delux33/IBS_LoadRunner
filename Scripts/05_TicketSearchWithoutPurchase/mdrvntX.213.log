@@ -1,0 +1,10 @@
+Start auto log messages stack - Iteration 24.	[MsgId: MMSG-10545]
+TicketSearchWithoutPurchase.c(23): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+TicketSearchWithoutPurchase.c(23): Found resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+TicketSearchWithoutPurchase.c(23): Found resource "http://127.0.0.1:8090/WebTours/images/webtours.png" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+TicketSearchWithoutPurchase.c(23): Found resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:8090/WebTours/header.html"  	[MsgId: MMSG-26659]
+TicketSearchWithoutPurchase.c(23): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+TicketSearchWithoutPurchase.c(23): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

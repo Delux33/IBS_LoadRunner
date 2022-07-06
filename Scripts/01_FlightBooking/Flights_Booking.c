@@ -76,6 +76,8 @@ Flights_Booking()
 	
 	lr_end_transaction("Web_tours",LR_AUTO);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Login");
 
 	web_add_header("Origin", 
@@ -108,6 +110,8 @@ Flights_Booking()
 		LAST);
 	
 	lr_end_transaction("Login",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("Togo_info_about_flight");
 	
@@ -180,6 +184,8 @@ Flights_Booking()
 
 	lr_end_transaction("Togo_info_about_flight",LR_AUTO);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Find_flight");
 	
 	web_reg_find("Text=Flight Reservation",LAST);
@@ -209,11 +215,15 @@ Flights_Booking()
 	
 	lr_end_transaction("Find_flight",LR_AUTO);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Payment_details");
 	
 	web_reg_find("Text=Thank you for booking through Web Tours.",LAST);
-
-	web_submit_data("reservations.pl_3",
+	
+	if (atoi(lr_eval_string("{numPassengers}")) == 1) {
+		
+		web_submit_data("reservations.pl_3",
 		"Action=http://127.0.0.1:8090/WebTours/reservations.pl",
 		"Method=POST",
 		"TargetFrame=",
@@ -241,6 +251,73 @@ Flights_Booking()
 		"Name=buyFlights.y", "Value=6", ENDITEM,
 		"Name=.cgifields", "Value=saveCC", ENDITEM,
 		LAST);
+		
+	} else if (atoi(lr_eval_string("{numPassengers}")) == 2) {
+		
+		web_submit_data("reservations.pl_3",
+		"Action=http://127.0.0.1:8090/WebTours/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:8090/WebTours/reservations.pl",
+		"Snapshot=t8.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=firstName", "Value={firstName}", ENDITEM,
+		"Name=lastName", "Value={lastName}", ENDITEM,
+		"Name=address1", "Value={address1}", ENDITEM,
+		"Name=address2", "Value={address2}", ENDITEM,
+		"Name=pass1", "Value={pass1}", ENDITEM,
+		"Name=pass2", "Value={pass2}", ENDITEM,
+		"Name=creditCard", "Value={creditCard}", ENDITEM,
+		"Name=expDate", "Value={expDate}", ENDITEM,
+		"Name=oldCCOption", "Value=", ENDITEM,
+		"Name=numPassengers", "Value={numPassengers}", ENDITEM,
+		"Name=seatType", "Value={seatType}", ENDITEM,
+		"Name=seatPref", "Value={seatPref}", ENDITEM,
+		"Name=outboundFlight", "Value={outboundFlightVal}", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=returnFlight", "Value={returnFlightVal}", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		"Name=buyFlights.x", "Value=63", ENDITEM,
+		"Name=buyFlights.y", "Value=6", ENDITEM,
+		"Name=.cgifields", "Value=saveCC", ENDITEM,
+		LAST);
+		
+	} else {
+		
+		web_submit_data("reservations.pl_3",
+		"Action=http://127.0.0.1:8090/WebTours/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:8090/WebTours/reservations.pl",
+		"Snapshot=t8.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=firstName", "Value={firstName}", ENDITEM,
+		"Name=lastName", "Value={lastName}", ENDITEM,
+		"Name=address1", "Value={address1}", ENDITEM,
+		"Name=address2", "Value={address2}", ENDITEM,
+		"Name=pass1", "Value={pass1}", ENDITEM,
+		"Name=pass2", "Value={pass2}", ENDITEM,
+		"Name=pass3", "Value={pass3}", ENDITEM,
+		"Name=creditCard", "Value={creditCard}", ENDITEM,
+		"Name=expDate", "Value={expDate}", ENDITEM,
+		"Name=oldCCOption", "Value=", ENDITEM,
+		"Name=numPassengers", "Value={numPassengers}", ENDITEM,
+		"Name=seatType", "Value={seatType}", ENDITEM,
+		"Name=seatPref", "Value={seatPref}", ENDITEM,
+		"Name=outboundFlight", "Value={outboundFlightVal}", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=returnFlight", "Value={returnFlightVal}", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		"Name=buyFlights.x", "Value=63", ENDITEM,
+		"Name=buyFlights.y", "Value=6", ENDITEM,
+		"Name=.cgifields", "Value=saveCC", ENDITEM,
+		LAST);
+		
+	}
 	
 	lr_end_transaction("Payment_details",LR_AUTO);
 	

@@ -1,6 +1,6 @@
 [t6]
 FileName2=t6f0.html
-RawStepEndTime=1656445344976
+RawStepEndTime=1657102700817
 UseFrameIndex=1
 RequestBodyFile=t6_RequestBody.txt
 RawStepName=Itinerary Button
@@ -11,7 +11,7 @@ URL3=http://127.0.0.1:8090/WebTours/itinerary.pl
 ResponseHeaderFile=t6_ResponseHeader.txt
 SnapshotXmlFile=snapshot_5.xml
 RequestHeaderFile=t6_RequestHeader.txt
-RawStepStartTime=1656445342284
+RawStepStartTime=1657102700028
 Total=3
 StepName=Url: Itinerary Button
 FrameIndex2=0.0

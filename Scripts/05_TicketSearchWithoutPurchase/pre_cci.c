@@ -2677,6 +2677,8 @@ TicketSearchWithoutPurchase()
 	
 	lr_end_transaction("Web_tours",2);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Login");
 
 	web_add_header("Origin", 
@@ -2709,6 +2711,8 @@ TicketSearchWithoutPurchase()
 		"LAST");
 	
 	lr_end_transaction("Login",2);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("Togo_info_about_flight");
 	
@@ -2781,6 +2785,8 @@ TicketSearchWithoutPurchase()
 
 	lr_end_transaction("Togo_info_about_flight",2);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Find_flight");
 	
 	web_reg_find("Text=Flight Reservation","LAST");
@@ -2809,6 +2815,8 @@ TicketSearchWithoutPurchase()
 		"LAST");
 	
 	lr_end_transaction("Find_flight",2);
+	
+	lr_think_time(5);
 	
 	lr_start_transaction("Logout");
     

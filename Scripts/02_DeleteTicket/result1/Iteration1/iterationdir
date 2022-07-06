@@ -1,4 +1,6 @@
 [vuser_init]
 SnapshotIndex=I1_vuser_init
+[vuser_end]
+SnapshotIndex=I1_vuser_end
 [Delete_ticket]
 SnapshotIndex=I1_Delete_ticket

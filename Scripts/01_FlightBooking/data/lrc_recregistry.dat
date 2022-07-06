@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	C:\Users\ִלטענטי\Documents\VuGen\Scripts\FlightBooking\data\
+		default	C:\Users\ִלטענטי\Documents\VuGen\Scripts\01_FlightBooking\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly

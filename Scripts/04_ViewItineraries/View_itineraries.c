@@ -76,6 +76,8 @@ View_itineraries()
 	
 	lr_end_transaction("Web_tours",LR_AUTO);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Login");
 
 	web_add_header("Origin", 
@@ -109,6 +111,8 @@ View_itineraries()
 	
 	lr_end_transaction("Login",LR_AUTO);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Itineraries");
 	
 	web_reg_find("Text=No flights have been reserved.",
@@ -132,6 +136,8 @@ View_itineraries()
     LAST);
 	
 	lr_end_transaction("Itineraries", LR_AUTO);
+	
+	lr_think_time(5);
 	
 	lr_start_transaction("Logout");
     

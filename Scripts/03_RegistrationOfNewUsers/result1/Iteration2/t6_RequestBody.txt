@@ -1,2 +1,0 @@
-"username=840016915&password=1066541562&passwordConfirm=1066541562&firstName=784456692&lastName"
-"=820683882&address1=1862565560&address2=1078119566&register.x=43&register.y=16"

@@ -19,7 +19,11 @@
     <FileEntry Name="05_TicketSearchWithoutPurchase.ci" Filter="1" />
     <FileEntry Name="05_TicketSearchWithoutPurchase.prm.bak" Filter="1" />
     <FileEntry Name="108150465440.idx" Filter="1" />
+    <FileEntry Name="174633829440.idx" Filter="1" />
     <FileEntry Name="228860139440.idx" Filter="1" />
+    <FileEntry Name="22886013944_nAr.905.idx" Filter="1" />
+    <FileEntry Name="22886013944_oYv.493.idx" Filter="1" />
+    <FileEntry Name="94664086440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -27,6 +31,8 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv5WB.835.log" Filter="1" />
+    <FileEntry Name="mdrvntX.213.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
@@ -36,6 +42,8 @@
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="05_TicketSearchWithoutPurchase\" Filter="1" />
+    <FileEntry Name="Parameters\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

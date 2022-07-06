@@ -1,0 +1,11 @@
+username,password,firstName,lastName,address1,address2,pass1,pass2,pass3,creditCard,expDate
+jojo,bean,Dmitrii,Tryanin,Vaneeva,Saransk,Dmitrii,Alexsey,Vladislav,123456780912,1111
+joj,bea,Dmitri,Tryani,Vaneev,Sarans,Dmitri,Alexse,Vladisla,12345678091,1112
+jo,be,Dmitr,Tryan,Vaneev,Sarans,Dmitr,Alexs,Vladisl,1234567809,1113
+j,b,Dmit,Trya,Vanee,Saran,Dmit,Alex,Vladis,123456780,1114
+jq,bq,Dmi,Try,Vane,Sara,Dmi,Ale,Vladi,12345678,1115
+jqw,bqw,Dm,Tr,Van,Sar,Dm,Al,Vlad,1234567,1116
+jqwe,bqwe,D,T,Va,Sa,D,A,Vla,123456,1117
+jqwer,bqwer,Dq,Tq,Vaq,Saq,Dq,Aq,Vlaq,1234561,1118
+jqwert,bqwert,Dqw,Tqw,Vaqw,Saqw,Dqw,Aqw,Vlaqw,12345612,1119
+jqwerty,bqwerty,Dqwe,Tqwe,Vaqwe,Saqwe,Dqwe,Aqwe,Vlaqwe,123456123,1110

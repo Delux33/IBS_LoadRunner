@@ -1,0 +1,9 @@
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+View_itineraries.c(128): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+View_itineraries.c(128): Registered web_reg_find successful for "Text=No flights have been reserved."  	[MsgId: MMSG-26362]
+View_itineraries.c(128): Error -26366: "Text=No flights have been reserved." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

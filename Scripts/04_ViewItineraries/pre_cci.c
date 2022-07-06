@@ -1,4 +1,4 @@
-# 1 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_View_itinerarys.c"
+# 1 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_ViewItIneraries.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_View_itinerarys.c" 2
+# 1 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_ViewItIneraries.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_View_itinerarys.c" 2
+# 2 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_ViewItIneraries.c" 2
 
 # 1 "globals.h" 1
 
@@ -2589,14 +2589,14 @@ void
  
 
 
-# 3 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_View_itinerarys.c" 2
+# 3 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_ViewItIneraries.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_View_itinerarys.c" 2
+# 4 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_ViewItIneraries.c" 2
 
 # 1 "View_itineraries.c" 1
 View_itineraries()
@@ -2677,6 +2677,8 @@ View_itineraries()
 	
 	lr_end_transaction("Web_tours",2);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Login");
 
 	web_add_header("Origin", 
@@ -2710,6 +2712,8 @@ View_itineraries()
 	
 	lr_end_transaction("Login",2);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Itineraries");
 	
 	web_reg_find("Text=No flights have been reserved.",
@@ -2734,6 +2738,8 @@ View_itineraries()
 	
 	lr_end_transaction("Itineraries", 2);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Logout");
     
     web_reg_find("Text=Welcome to the Web Tours site.","LAST");
@@ -2754,12 +2760,12 @@ View_itineraries()
 	
 	return 0;
 }
-# 5 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_View_itinerarys.c" 2
+# 5 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_ViewItIneraries.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_View_itinerarys.c" 2
+# 6 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\04_viewitineraries\\\\combined_04_ViewItIneraries.c" 2
 

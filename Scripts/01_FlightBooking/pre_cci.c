@@ -1,4 +1,4 @@
-# 1 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_FlightBooking.c"
+# 1 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_01_FlightBooking.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,7 +966,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_FlightBooking.c" 2
+# 1 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_01_FlightBooking.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1132,7 +1132,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_FlightBooking.c" 2
+# 2 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_01_FlightBooking.c" 2
 
 # 1 "globals.h" 1
 
@@ -2586,19 +2586,27 @@ void
 
 
 
+
+
+
+
  
  
 
 
 
-# 3 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_FlightBooking.c" 2
+
+
+
+
+# 3 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_01_FlightBooking.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_FlightBooking.c" 2
+# 4 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_01_FlightBooking.c" 2
 
 # 1 "Flights_Booking.c" 1
 Flights_Booking()
@@ -2679,6 +2687,8 @@ Flights_Booking()
 	
 	lr_end_transaction("Web_tours",2);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Login");
 
 	web_add_header("Origin", 
@@ -2711,6 +2721,8 @@ Flights_Booking()
 		"LAST");
 	
 	lr_end_transaction("Login",2);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("Togo_info_about_flight");
 	
@@ -2783,6 +2795,8 @@ Flights_Booking()
 
 	lr_end_transaction("Togo_info_about_flight",2);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Find_flight");
 	
 	web_reg_find("Text=Flight Reservation","LAST");
@@ -2812,11 +2826,15 @@ Flights_Booking()
 	
 	lr_end_transaction("Find_flight",2);
 	
+	lr_think_time(5);
+	
 	lr_start_transaction("Payment_details");
 	
 	web_reg_find("Text=Thank you for booking through Web Tours.","LAST");
-
-	web_submit_data("reservations.pl_3",
+	
+	if (atoi(lr_eval_string("{numPassengers}")) == 1) {
+		
+		web_submit_data("reservations.pl_3",
 		"Action=http://127.0.0.1:8090/WebTours/reservations.pl",
 		"Method=POST",
 		"TargetFrame=",
@@ -2844,6 +2862,73 @@ Flights_Booking()
 		"Name=buyFlights.y", "Value=6", "ENDITEM",
 		"Name=.cgifields", "Value=saveCC", "ENDITEM",
 		"LAST");
+		
+	} else if (atoi(lr_eval_string("{numPassengers}")) == 2) {
+		
+		web_submit_data("reservations.pl_3",
+		"Action=http://127.0.0.1:8090/WebTours/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:8090/WebTours/reservations.pl",
+		"Snapshot=t8.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=firstName", "Value={firstName}", "ENDITEM",
+		"Name=lastName", "Value={lastName}", "ENDITEM",
+		"Name=address1", "Value={address1}", "ENDITEM",
+		"Name=address2", "Value={address2}", "ENDITEM",
+		"Name=pass1", "Value={pass1}", "ENDITEM",
+		"Name=pass2", "Value={pass2}", "ENDITEM",
+		"Name=creditCard", "Value={creditCard}", "ENDITEM",
+		"Name=expDate", "Value={expDate}", "ENDITEM",
+		"Name=oldCCOption", "Value=", "ENDITEM",
+		"Name=numPassengers", "Value={numPassengers}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=outboundFlight", "Value={outboundFlightVal}", "ENDITEM",
+		"Name=advanceDiscount", "Value=0", "ENDITEM",
+		"Name=returnFlight", "Value={returnFlightVal}", "ENDITEM",
+		"Name=JSFormSubmit", "Value=off", "ENDITEM",
+		"Name=buyFlights.x", "Value=63", "ENDITEM",
+		"Name=buyFlights.y", "Value=6", "ENDITEM",
+		"Name=.cgifields", "Value=saveCC", "ENDITEM",
+		"LAST");
+		
+	} else {
+		
+		web_submit_data("reservations.pl_3",
+		"Action=http://127.0.0.1:8090/WebTours/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:8090/WebTours/reservations.pl",
+		"Snapshot=t8.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=firstName", "Value={firstName}", "ENDITEM",
+		"Name=lastName", "Value={lastName}", "ENDITEM",
+		"Name=address1", "Value={address1}", "ENDITEM",
+		"Name=address2", "Value={address2}", "ENDITEM",
+		"Name=pass1", "Value={pass1}", "ENDITEM",
+		"Name=pass2", "Value={pass2}", "ENDITEM",
+		"Name=pass3", "Value={pass3}", "ENDITEM",
+		"Name=creditCard", "Value={creditCard}", "ENDITEM",
+		"Name=expDate", "Value={expDate}", "ENDITEM",
+		"Name=oldCCOption", "Value=", "ENDITEM",
+		"Name=numPassengers", "Value={numPassengers}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=outboundFlight", "Value={outboundFlightVal}", "ENDITEM",
+		"Name=advanceDiscount", "Value=0", "ENDITEM",
+		"Name=returnFlight", "Value={returnFlightVal}", "ENDITEM",
+		"Name=JSFormSubmit", "Value=off", "ENDITEM",
+		"Name=buyFlights.x", "Value=63", "ENDITEM",
+		"Name=buyFlights.y", "Value=6", "ENDITEM",
+		"Name=.cgifields", "Value=saveCC", "ENDITEM",
+		"LAST");
+		
+	}
 	
 	lr_end_transaction("Payment_details",2);
 	
@@ -2851,12 +2936,12 @@ Flights_Booking()
 
 	return 0;
 }
-# 5 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_FlightBooking.c" 2
+# 5 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_01_FlightBooking.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_FlightBooking.c" 2
+# 6 "c:\\users\\\344\354\350\362\360\350\351\\documents\\vugen\\scripts\\01_flightbooking\\\\combined_01_FlightBooking.c" 2
 

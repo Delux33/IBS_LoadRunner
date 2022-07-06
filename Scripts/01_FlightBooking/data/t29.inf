@@ -1,0 +1,11 @@
+[t29]
+FileName1=t29.html
+URL1=http://127.0.0.1:8090/WebTours/reservations.pl
+Total=1
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=t29_RequestBody.txt
+ResponseHeaderFile=t29_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_29.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

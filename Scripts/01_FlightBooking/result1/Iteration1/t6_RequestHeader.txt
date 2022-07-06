@@ -9,5 +9,5 @@ Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 Accept: */*
 Connection: Keep-Alive
 Host: 127.0.0.1:8090
-Cookie: MSO=SID&1656441494&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&&address2&&username&jq&hash&49&lastName&%0A&address1&&creditCard&&expDate&%0A
+Cookie: MSO=SID&1657103245&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&&address2&&username&jo&hash&47&lastName&%0A&address1&&creditCard&&expDate&%0A
 

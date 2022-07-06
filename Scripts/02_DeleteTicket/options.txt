@@ -5,5 +5,5 @@
 -IC:\Users\Дмитрий\Documents\VuGen\Scripts\02_DeleteTicket
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
 -ec:\users\дмитрий\documents\vugen\scripts\02_deleteticket\\logfile.log
-c:\users\дмитрий\documents\vugen\scripts\02_deleteticket\\combined_DeleteTicket.c
+c:\users\дмитрий\documents\vugen\scripts\02_deleteticket\\combined_02_DeleteTicket.c
 c:\users\дмитрий\documents\vugen\scripts\02_deleteticket\\pre_cci.c

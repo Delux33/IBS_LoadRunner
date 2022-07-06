@@ -1,0 +1,10 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+TicketSearchWithoutPurchase.c(21): web_reg_find started  	[MsgId: MMSG-26355]
+TicketSearchWithoutPurchase.c(21): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+TicketSearchWithoutPurchase.c(23): web_url("WebTours") started  	[MsgId: MMSG-26355]
+TicketSearchWithoutPurchase.c(23): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+TicketSearchWithoutPurchase.c(23): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+TicketSearchWithoutPurchase.c(23): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,4 +1,4 @@
-"firstName=Dm&lastName=Tr&address1=Van&address2=Sar&pass1=Dm&creditCard=1234567&expDate=1116&ol"
-"dCCOption=&numPassengers=1&seatType=Coach&seatPref=Window&outboundFlight=050%3B275%3B11%2F22%2"
-"F2022&advanceDiscount=0&returnFlight=500%3B275%3B11%2F23%2F2022&JSFormSubmit=off&buyFlights.x="
-"63&buyFlights.y=6&.cgifields=saveCC"
+"firstName=Dmitr&lastName=Tryan&address1=Vaneev&address2=Sarans&pass1=Dmitr&pass2=Alexs&creditC"
+"ard=1234567809&expDate=1113&oldCCOption=&numPassengers=2&seatType=Coach&seatPref=None&outbound"
+"Flight=031%3B224%3B09%2F22%2F2022&advanceDiscount=0&returnFlight=300%3B251%3B09%2F23%2F2022&JS"
+"FormSubmit=off&buyFlights.x=63&buyFlights.y=6&.cgifields=saveCC"

@@ -1,4 +1,4 @@
-Virtual User Script started at: 06.07.2022 13:04:57
+Virtual User Script started at: 06.07.2022 19:26:32
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -34,7 +34,7 @@ Flights_Booking.c(23): Detected non-resource "http://127.0.0.1:8090/WebTours/hom
 Flights_Booking.c(23): Found resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Flights_Booking.c(23): Found resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Flights_Booking.c(23): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
-Flights_Booking.c(23): web_url("WebTours") was successful, 40142 body bytes, 1955 header bytes  	[MsgId: MMSG-26386]
+Flights_Booking.c(23): web_url("WebTours") was successful, 40139 body bytes, 1955 header bytes  	[MsgId: MMSG-26386]
 Flights_Booking.c(33): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
 Flights_Booking.c(33): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
 Flights_Booking.c(36): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
@@ -61,8 +61,8 @@ Flights_Booking.c(67): Detected non-resource "http://127.0.0.1:8090/WebTours/hom
 Flights_Booking.c(67): Retrieving data from cache for "http://127.0.0.1:8090/WebTours/home.html"  	[MsgId: MMSG-26558]
 Flights_Booking.c(67): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Flights_Booking.c(67): Resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Flights_Booking.c(67): web_url("welcome.pl") was successful, 3390 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
-Flights_Booking.c(77): Notify: Transaction "Web_tours" ended with a "Pass" status (Duration: 2,3407 Wasted Time: 0,2799).
+Flights_Booking.c(67): web_url("welcome.pl") was successful, 3387 body bytes, 639 header bytes  	[MsgId: MMSG-26386]
+Flights_Booking.c(77): Notify: Transaction "Web_tours" ended with a "Pass" status (Duration: 2,5892 Wasted Time: 0,3058).
 Flights_Booking.c(79): lr_think_time: 5,00 seconds.
 Flights_Booking.c(81): Notify: Transaction "Login" started.
 Flights_Booking.c(83): web_add_header("Origin") started  	[MsgId: MMSG-26355]
@@ -81,9 +81,9 @@ Flights_Booking.c(94): Found resource "http://127.0.0.1:8090/WebTours/images/fli
 Flights_Booking.c(94): Found resource "http://127.0.0.1:8090/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Flights_Booking.c(94): Resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Flights_Booking.c(94): Found resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Flights_Booking.c(94): Registered web_reg_find successful for "Text=Welcome, <b>jqwe</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
-Flights_Booking.c(94): web_submit_data("login.pl") was successful, 5035 body bytes, 1316 header bytes  	[MsgId: MMSG-26386]
-Flights_Booking.c(112): Notify: Transaction "Login" ended with a "Pass" status (Duration: 1,1322 Wasted Time: 0,0219).
+Flights_Booking.c(94): Registered web_reg_find successful for "Text=Welcome, <b>jqwert</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+Flights_Booking.c(94): web_submit_data("login.pl") was successful, 5037 body bytes, 1319 header bytes  	[MsgId: MMSG-26386]
+Flights_Booking.c(112): Notify: Transaction "Login" ended with a "Pass" status (Duration: 1,1155 Wasted Time: 0,0181).
 Flights_Booking.c(114): lr_think_time: 5,00 seconds.
 Flights_Booking.c(116): Notify: Transaction "Togo_info_about_flight" started.
 Flights_Booking.c(118): web_reg_find started  	[MsgId: MMSG-26355]
@@ -113,7 +113,7 @@ Flights_Booking.c(149): Registering web_reg_save_param_attrib was successful  	[
 Flights_Booking.c(160): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
 Flights_Booking.c(160): Resource "http://127.0.0.1:8090/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Flights_Booking.c(160): web_submit_data("reservations.pl") was successful, 3445 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
-Flights_Booking.c(185): Notify: Transaction "Togo_info_about_flight" ended with a "Pass" status (Duration: 1,3825 Wasted Time: 0,0355).
+Flights_Booking.c(185): Notify: Transaction "Togo_info_about_flight" ended with a "Pass" status (Duration: 1,3782 Wasted Time: 0,0336).
 Flights_Booking.c(187): lr_think_time: 5,00 seconds.
 Flights_Booking.c(189): Notify: Transaction "Find_flight" started.
 Flights_Booking.c(191): web_reg_find started  	[MsgId: MMSG-26355]
@@ -121,21 +121,20 @@ Flights_Booking.c(191): Registering web_reg_find was successful  	[MsgId: MMSG-2
 Flights_Booking.c(197): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
 Flights_Booking.c(197): Resource "http://127.0.0.1:8090/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Flights_Booking.c(197): Registered web_reg_find successful for "Text=Flight Reservation" (count=1)  	[MsgId: MMSG-26364]
-Flights_Booking.c(197): web_submit_data("reservations.pl_2") was successful, 2656 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
-Flights_Booking.c(216): Notify: Transaction "Find_flight" ended with a "Pass" status (Duration: 0,5460 Wasted Time: 0,0112).
+Flights_Booking.c(197): web_submit_data("reservations.pl_2") was successful, 2723 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Flights_Booking.c(216): Notify: Transaction "Find_flight" ended with a "Pass" status (Duration: 0,5657 Wasted Time: 0,0108).
 Flights_Booking.c(218): lr_think_time: 5,00 seconds.
 Flights_Booking.c(220): Notify: Transaction "Payment_details" started.
 Flights_Booking.c(222): web_reg_find started  	[MsgId: MMSG-26355]
 Flights_Booking.c(222): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Flights_Booking.c(226): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
-Flights_Booking.c(226): Found resource "http://127.0.0.1:8090/WebTours/images/bookanother.gif" in HTML "http://127.0.0.1:8090/WebTours/reservations.pl"  	[MsgId: MMSG-26659]
-Flights_Booking.c(226): Registered web_reg_find successful for "Text=Thank you for booking through Web Tours." (count=1)  	[MsgId: MMSG-26364]
-Flights_Booking.c(226): web_submit_data("reservations.pl_3") was successful, 3303 body bytes, 514 header bytes  	[MsgId: MMSG-26386]
-Flights_Booking.c(322): Notify: Transaction "Payment_details" ended with a "Pass" status (Duration: 0,5480 Wasted Time: 0,0099).
-Flights_Booking.c(324): Notify: Transaction "01_Flights_booking" ended with a "Pass" status (Duration: 26,1382 Think Time: 20,0311 Wasted Time: 0,3584).
+Flights_Booking.c(257): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+Flights_Booking.c(257): Found resource "http://127.0.0.1:8090/WebTours/images/bookanother.gif" in HTML "http://127.0.0.1:8090/WebTours/reservations.pl"  	[MsgId: MMSG-26659]
+Flights_Booking.c(257): Registered web_reg_find successful for "Text=Thank you for booking through Web Tours." (count=1)  	[MsgId: MMSG-26364]
+Flights_Booking.c(257): web_submit_data("reservations.pl_3") was successful, 3315 body bytes, 517 header bytes  	[MsgId: MMSG-26386]
+Flights_Booking.c(322): Notify: Transaction "Payment_details" ended with a "Pass" status (Duration: 0,6128 Wasted Time: 0,0126).
+Flights_Booking.c(324): Notify: Transaction "01_Flights_booking" ended with a "Pass" status (Duration: 26,4632 Think Time: 20,0452 Wasted Time: 0,3810).
 Ending action Flights_Booking.
 Ending iteration 1.
-Waiting 33,8150 seconds for iteration pacing.
 Ending Vuser...
 Starting action vuser_end.
 Ending action vuser_end.

@@ -44,6 +44,7 @@
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="departDate(1).dat" Filter="1" />
     <FileEntry Name="departDate.dat" Filter="1" />
     <FileEntry Name="FlightBooking.c.pickle" Filter="1" />
     <FileEntry Name="FlightBooking.ci" Filter="1" />
@@ -63,6 +64,7 @@
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="returnDate.dat" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />

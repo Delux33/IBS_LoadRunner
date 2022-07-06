@@ -1,6 +1,6 @@
 [t2]
 FileName2=t1_4_mer_login.gif
-RawStepEndTime=1657103244613
+RawStepEndTime=1657124918413
 FileName5=t1_1_webtours.png
 FileName4=t1_2_in_home.gif
 FileName6=t1_0_jmeter_logo.png
@@ -17,7 +17,7 @@ URL6=http://127.0.0.1:8090/WebTours/images/jmeter_logo.png
 SnapshotXmlFile=snapshot_2.xml
 RequestHeaderFile=t2_RequestHeader.txt
 SaveSnapshotResources=1
-RawStepStartTime=1657103244598
+RawStepStartTime=1657124918400
 Total=6
 StepName=Url: header.html
 FileName1=t2.html

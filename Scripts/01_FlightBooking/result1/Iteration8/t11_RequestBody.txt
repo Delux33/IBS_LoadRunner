@@ -1,4 +1,0 @@
-"firstName=Dmitrii&lastName=Tryanin&address1=Vaneeva&address2=Saransk&pass1=Dmitrii&pass2=Alexs"
-"ey&creditCard=123456780912&expDate=1111&oldCCOption=&numPassengers=2&seatType=First&seatPref=A"
-"isle&outboundFlight=071%3B488%3B07%2F22%2F2023&advanceDiscount=0&returnFlight=700%3B548%3B07%2"
-"F23%2F2023&JSFormSubmit=off&buyFlights.x=63&buyFlights.y=6&.cgifields=saveCC"

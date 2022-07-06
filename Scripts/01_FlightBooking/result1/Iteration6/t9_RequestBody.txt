@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Denver&departDate=09%2F22%2F2022&arrive=Los+Angeles&returnDate=09%2F2"
-"3%2F2022&numPassengers=3&roundtrip=on&seatPref=None&seatType=Coach&findFlights.x=56&findFlight"
-"s.y=14&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

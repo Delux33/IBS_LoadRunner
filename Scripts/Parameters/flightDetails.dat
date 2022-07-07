@@ -1,11 +1,11 @@
-depart,departDate,arrive,returnDate,roundtrip,seatPref,seatType
-Denver,07/22/2022,London,07/23/2022,on,Window,Business
-Denver,08/22/2022,Frankfurt,08/23/2022,on,Aisle,First
-Denver,09/22/2022,Los Angeles,09/23/2022,on,None,Coach
-Denver,10/22/2022,Paris,10/23/2022,on,Window,Business
-Denver,11/22/2022,Portland,11/23/2022,on,Aisle,First
-Denver,12/22/2022,San Francisco,12/23/2022,on,None,Coach
-Denver,07/22/2023,Seattle,07/23/2023,on,Aisle,First
-Denver,08/22/2022,Sydney,08/23/2022,on,Window,Business
-Denver,09/22/2022,Zurich,09/23/2022,on,Aisle,First
-Zurich,10/22/2022,Paris,10/23/2022,on,Window,Business
+depart,arrive,roundtrip,seatPref,seatType
+Denver,London,on,Window,Business
+Denver,Frankfurt,on,Aisle,First
+Denver,Los Angeles,on,None,Coach
+Denver,Paris,on,Window,Business
+Denver,Portland,on,Aisle,First
+Denver,San Francisco,on,None,Coach
+Denver,Seattle,on,Aisle,First
+Denver,Sydney,on,Window,Business
+Denver,Zurich,on,Aisle,First
+Zurich,Paris,on,Window,Business
